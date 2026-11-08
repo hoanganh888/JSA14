@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Game Câu Cá — Vườn Toán Lớp 3</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/tailwind.build.css" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="assets/js/tailwind.config.js"></script>
+<link href="assets/css/app.css" rel="stylesheet"/>
+<body class="bg-background font-body-md text-on-surface antialiased min-h-screen" data-page="game4">
+<aside id="app-sidebar"></aside>
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-xl shadow-[0_4px_24px_rgba(0,97,39,0.08)]"><div class="h-20 w-full px-gutter-mobile lg:px-margin max-w-7xl mx-auto flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="Logo Trường Tiểu học Hoàng Mai" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5cjuWWAWsjimfXPTn37XDLU9xQesLsZAhpXmz3qKg6zVBRXPYMUjkoy-u3U2wiL_yrqsnHsIgOzm9-nS0UWwpaKbbVQOwW8mW8SyGA8Nloqjgx9JlcGE9Vtnrjx7AJa39zCrfwQPTfHf1aB9jkJUzew1Qkj12tiD4YtF0Dd8cNQsRpPZYsW-AIubPqVcPo2OFVI3aKps_DVjfVlf5uBkjBNCeKiJ6P-_eCLFvTEl5uEWKgZzltQgwNg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">VƯỜN TOÁN 3</span><span class="font-label-sm text-[12px] text-on-surface-variant font-semibold">TH Hoàng Mai</span></div></div><nav class="hidden xl:flex items-center gap-space-xs bg-surface-container-low p-1.5 rounded-full" data-active-classes="bg-primary text-on-primary font-bold shadow-[0_3px_0_0_#005320] rounded-full"><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="muc-luc-sgk" href="muc-luc.html">Mục Lục SGK</a><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="luyen-tap-va-kiem-tra" href="#">Luyện Tập &amp; Kiểm Tra</a><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="dau-truong-tro-choi" href="#">Đấu Trường Trò Chơi</a><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="bang-xep-hang-va-vinh-danh" href="#">Bảng Xếp Hạng &amp; Vinh Danh</a><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="goc-thay-co" href="#">Góc Thầy Cô</a></nav><div class="flex items-center gap-space-sm"><div class="hidden md:flex items-center gap-space-xs bg-surface-container-lowest px-2.5 py-1.5 rounded-full shadow-[0_2px_10px_rgba(0,0,0,0.05)]"><div class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm shadow-[inset_0_-2px_0_0_#f7be23]"><span class="material-symbols-outlined text-[18px] text-tertiary">star</span><span>1.250</span></div><div class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-headline-sm text-label-sm shadow-[inset_0_-2px_0_0_#6ddd81]"><span class="material-symbols-outlined text-[18px] text-secondary">military_tech</span><span>Hạng 2</span></div></div><div class="flex items-center gap-2.5 pl-space-xs py-1 pr-3 bg-surface-container-low hover:bg-surface-container transition-colors rounded-full cursor-pointer"><img alt="Hồ sơ học sinh" class="w-9 h-9 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKwA6FT33BYSGdO7z6NLWGOVMAz6PyDh1E0kzf5-4Jvs9IlUa9osjTxIXPXV-SiFr0-mXjeZ74Qb_GUTnRX2F5TYyF9mPoUne33RlMuy7UGiGYAjE_Ohrnd1KFtfLB3IciZMNb82xMZ_ElTdn4e4fIhabnLLL2wAwILSbWyGw7vjQJ69Pf-_Km0CwIhQ90vjGunVdgmOyT2a9i2YxWiHYyM80L0aXMA0ZpmFcwDyP86T0St2quGf_YAw"/><div class="flex flex-col text-left"><span class="font-headline-sm text-label-sm text-on-surface leading-tight">Học sinh</span><span class="font-label-sm text-[11px] text-primary font-bold leading-none">Lớp 3A2 • Sao Chăm Chỉ</span></div></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- GAMIFIED OCEAN DASHBOARD / APP WRAPPER -->
+<div class="w-full max-w-7xl mx-auto px-gutter-mobile lg:px-margin py-space-sm flex flex-col gap-space-md">
+<!-- SUB-NAV / TOP BAR STATUS -->
+<div class="w-full bg-surface-container-lowest rounded-2xl shadow-[0_4px_16px_rgba(0,97,39,0.06)] p-3 lg:p-4 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<a class="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant font-label-md text-label-md transition-all shadow-[0_3px_0_0_#bfcabb] active:translate-y-1 active:shadow-none" href="#">
+<span class="material-symbols-outlined text-[20px] text-primary">arrow_back</span>
+<span>Chọn trò chơi khác</span>
+</a>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold tracking-wide uppercase">Minigame 04</span>
+<span class="font-headline-sm text-headline-sm text-primary">Câu Cá Đại Dương Phép Tính</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Luyện phản xạ thần tốc Bảng chia 6 &amp; Bảng chia 7 • Tuần học thứ 9</span>
+</div>
+</div>
+<!-- Live Mission Metrics (Tactile Badges) -->
+<div class="flex items-center flex-wrap gap-2 sm:gap-3 justify-start md:justify-end">
+<!-- Fish Count -->
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-2xl bg-secondary-fixed text-on-secondary-fixed shadow-[inset_0_-3px_0_0_#6ddd81]">
+<span class="material-symbols-outlined text-[22px] text-secondary">set_meal</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-[11px] leading-none opacity-80">Giỏ cá</span>
+<span class="font-headline-sm text-label-md leading-tight">7 / 10 con</span>
+</div>
+</div>
+<!-- Bait Power -->
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-2xl bg-surface-container-low shadow-[inset_0_-3px_0_0_#d8dad9]">
+<span class="material-symbols-outlined text-[22px] text-error">electric_bolt</span>
+<div class="flex flex-col min-w-[70px]">
+<div class="flex justify-between items-baseline text-[11px] font-label-sm">
+<span class="opacity-80">Mồi câu</span>
+<span class="font-bold text-primary">95%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 95%;"></div>
+</div>
+</div>
+</div>
+<!-- Diving Timer -->
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-2xl bg-surface-container text-on-surface shadow-[inset_0_-3px_0_0_#bfcabb]">
+<span class="material-symbols-outlined text-[22px] text-primary">timer</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-[11px] leading-none opacity-80">Thời gian</span>
+<span class="font-headline-sm text-label-md leading-tight text-primary">52s</span>
+</div>
+</div>
+<!-- Rewards Earned -->
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-2xl bg-tertiary-fixed text-on-tertiary-fixed shadow-[inset_0_-3px_0_0_#f7be23]">
+<span class="material-symbols-outlined text-[22px] text-tertiary">stars</span>
+<span class="font-headline-sm text-label-md">+180 Sao</span>
+</div>
+<!-- Gear Badge -->
+<div class="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-2xl bg-primary text-on-primary shadow-[0_3px_0_0_#005320]">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed">phishing</span>
+<span class="font-label-sm text-label-sm font-bold">Cần Rồng Vàng</span>
+</div>
+</div>
+</div>
+<!-- MAIN INTERACTIVE ARENA: 12-COLUMN BENTO GRID -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md items-start">
+<!-- LEFT / CENTER: DEEP OCEAN FISHING GAME STAGE (8 COLS) -->
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+<!-- Ocean Canvas Container -->
+<div class="relative w-full h-[580px] lg:h-[620px] rounded-3xl overflow-hidden shadow-[0_16px_36px_rgba(0,97,39,0.12)] bg-gradient-to-b from-[#76d7ea] via-[#2193b0] to-[#0d3b66] select-none">
+<!-- Layer 1: Ambient Sun Rays and Bubbles (SVG Micro-art) -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none opacity-40 mix-blend-overlay" preserveaspectratio="none" viewbox="0 0 800 600">
+<defs>
+<lineargradient id="rayGrad" x1="0%" x2="50%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0.6"></stop>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+<polygon fill="url(#rayGrad)" points="120,0 200,0 290,600 180,600"></polygon>
+<polygon fill="url(#rayGrad)" points="340,0 440,0 580,600 450,600"></polygon>
+<polygon fill="url(#rayGrad)" points="580,0 660,0 790,600 680,600"></polygon>
+<!-- Rising decorative bubbles -->
+<circle cx="150" cy="420" fill="#ffffff" opacity="0.3" r="10"></circle>
+<circle cx="160" cy="380" fill="#ffffff" opacity="0.4" r="5"></circle>
+<circle cx="480" cy="510" fill="#ffffff" opacity="0.25" r="14"></circle>
+<circle cx="700" cy="310" fill="#ffffff" opacity="0.3" r="8"></circle>
+<circle cx="685" cy="260" fill="#ffffff" opacity="0.2" r="12"></circle>
+<circle cx="330" cy="290" fill="#ffffff" opacity="0.35" r="7"></circle>
+</svg>
+<!-- Layer 2: Surface Water & Boating Team Header (Bảo Nam & Voi Bo Bo) -->
+<div class="absolute top-0 left-0 right-0 h-28 bg-gradient-to-b from-[#b2f5ea]/80 to-transparent flex items-center justify-between px-6 z-20">
+<!-- Boat Crew -->
+<div class="flex items-center gap-3 bg-surface-container-lowest/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-[0_6px_16px_rgba(0,0,0,0.12)]">
+<div class="relative w-12 h-12 rounded-full overflow-hidden shadow-[inset_0_-2px_0_0_#9cf7a7]">
+<img class="w-full h-full object-cover" data-alt="Cute Vietnamese 3rd grader boy named Bao Nam wearing a yellow fisherman bucket hat and holding a sparkling magical golden fishing rod on a toy wooden boat, soft joyful Pixar 3D animated style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYq9f7dlutes_NIzU2oQ8tyDaOd_jQ-iCa3GtnBaipXH8KyaJTmNdVIjZICu5HU7oUAalcMuh3rpGjtM_FSZ9TXNGaFWcfuoVNelZicj7fjpeW80A-bqWsGFexWXv9iJe1wPq7nZyI1u3oCUBVAv2P925JWDM9b1pB2q88_3qPix6qwVDNqRV3tZlaGBi1jQKAVdhvMgf5YFXfv8n9TQCyTavqq7gODMuHeMkjsgK6XrVDl8rQj69asg"/>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-label-md text-primary leading-tight">Thuyền Trưởng Nhí</span>
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-[18px]">verified</span>
+</div>
+<span class="font-label-sm text-[12px] text-on-surface-variant font-semibold flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim inline-block animate-ping"></span>
+                  Đồng hành: Voi Bo Bo Thông Thái
+                </span>
+</div>
+</div>
+<!-- Combo Streaks -->
+<div class="hidden sm:flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed shadow-[0_3px_0_0_#f7be23]">
+<span class="material-symbols-outlined text-[20px] text-tertiary">local_fire_department</span>
+<span class="font-headline-sm text-label-sm tracking-wider uppercase">Combo × 4 Chuẩn Xác!</span>
+</div>
+</div>
+<!-- Fishing Line & Animated Hook Dropping from Top Boat -->
+<div class="absolute top-12 left-1/2 -translate-x-1/2 flex flex-col items-center z-20 pointer-events-none">
+<!-- Fishing Line Wire -->
+<div class="w-[2px] h-36 lg:h-40 bg-gradient-to-b from-white via-white/80 to-tertiary-fixed-dim shadow-[0_0_6px_rgba(255,255,255,0.8)]"></div>
+<!-- CENTRAL MATH QUESTION BOBBER / PHAO CÂU TOÁN HỌC -->
+<div class="relative pointer-events-auto transform transition-transform hover:scale-105 cursor-pointer">
+<!-- Glow ring -->
+<div class="absolute -inset-2 rounded-full bg-tertiary-fixed-dim/40 blur-md animate-pulse"></div>
+<!-- Bobber Badge with Math Challenge -->
+<div class="relative px-6 py-3 rounded-full bg-surface-container-lowest shadow-[0_8px_0_0_#1e7b3a,0_12px_24px_rgba(0,0,0,0.2)] flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-headline-sm text-label-md shadow-[inset_0_-2px_0_0_#005320]">
+                  ?
+                </div>
+<div class="flex flex-col text-center">
+<span class="font-label-sm text-[11px] uppercase tracking-wider text-on-surface-variant">Thử thách bảng chia 6</span>
+<span class="font-headline-xl text-headline-lg lg:text-headline-xl text-primary font-bold tracking-normal leading-none py-0.5">
+                    48 : 6 = ?
+                  </span>
+</div>
+<span class="material-symbols-outlined text-[24px] text-tertiary animate-bounce">south</span>
+</div>
+<!-- Fishing Hook SVG hanging below -->
+<div class="w-full flex justify-center -mt-0.5">
+<svg class="drop-shadow-md" fill="none" height="28" viewbox="0 0 24 28" width="24">
+<path d="M12 0V14C12 18.4183 8.41828 22 4 22C3.15343 22 2.34863 21.8687 1.6 21.625" stroke="#f7be23" stroke-linecap="round" stroke-width="3.5"></path>
+<path d="M4 17L1 22L5 25" stroke="#f7be23" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</div>
+</div>
+</div>
+<!-- UNDERWATER FISHING ARENA (ANIMATED / INTERACTIVE SWIMMING CREATURES) -->
+<!-- FISH 1: CA HEO THONG MINH - SO 8 (DAP AN DUNG) -->
+<div class="absolute top-[260px] lg:top-[280px] left-[35%] lg:left-[42%] z-30 transition-all duration-300 transform hover:scale-110 cursor-pointer" id="target-fish">
+<div class="relative group">
+<!-- Radiant Gold Success Aura for Correct Math Entity -->
+<div class="absolute -inset-4 bg-tertiary-fixed-dim/50 rounded-full blur-xl animate-pulse"></div>
+<!-- Fish Body Container -->
+<div class="relative flex items-center gap-2 bg-surface-container-lowest/95 backdrop-blur-sm px-4 py-2.5 rounded-full shadow-[0_6px_0_0_#1e7b3a,0_12px_28px_rgba(0,97,39,0.35)]">
+<!-- Illustrated Dolphin Avatar -->
+<div class="w-12 h-12 rounded-full overflow-hidden bg-secondary-fixed shadow-[inset_0_-2px_0_0_#6ddd81] flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Chubby friendly blue dolphin mascot with a big smile, cartoon 3D toy style, wearing small swimming goggles, bright cheerful lighting on oceanic cyan backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa3APCn6hsYFEF1Mm8ppuxr75Ak9f7C22eeq4yWWhWolKgaOJ0qL7SUdDoPJIR-z5u8JQlNVdhUqIfg_PjKTu-xM42Re6zamjYrK0i5PfgSIVwIvsi3MDewF2R0DL0U_pJl-vmRIc58DbaXjK1N6956M57y2fE74jtCpxTO-lZZ9UO7tWrjhD0Jjo1zNWs3ugGqwY0jsx72w3gLm4W8Eja84qfSE4dv8f9TazmWlkhRggJm2MCfy-Ggg"/>
+</div>
+<!-- Number Label -->
+<div class="flex flex-col items-center pr-1">
+<span class="font-label-sm text-[11px] text-primary font-bold">Cá Heo</span>
+<span class="font-headline-xl text-headline-xl text-primary leading-none">8</span>
+</div>
+<!-- Sparkle Badge -->
+<div class="w-7 h-7 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold text-label-sm shadow-[0_2px_0_0_#f7be23]">
+                  ✨
+                </div>
+</div>
+</div>
+</div>
+<!-- FISH 2: CA HE SOC CAM - SO 7 -->
+<div class="absolute top-[370px] left-[8%] lg:left-[12%] z-20 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+<div class="flex items-center gap-2 bg-surface-container-lowest/90 px-3.5 py-2 rounded-full shadow-[0_4px_0_0_#bfcabb,0_8px_16px_rgba(0,0,0,0.15)]">
+<div class="w-10 h-10 rounded-full overflow-hidden bg-surface-container shadow-[inset_0_-2px_0_0_#d8dad9] flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Chubby bright orange clownfish with clean white stripes, cute smiling cartoon expression, 3D animated toy style for children education." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPLCeLjSf8U__TfnXKlNXK2firMWcG0At9NbR69MBQFGLqja0vy5C3nlOs5gV8Jy72Zoki4mavTfKQELR2JRgS-_vFoUbGsMMyyTYmQHK-pSQmv1UwpSAhM_8-fiO6t9gvPxp91uAbM9FX3ZuOiW6mzlR9Qb_xSmcyYoQFjUEgEbpYBghssIZ2fr-yodPpsF4cTA8unnuGII9rtyL3aybGBy5FfRC0r2fc2TUBtpPJ14PUWKKpGfsGmQ"/>
+</div>
+<div class="flex flex-col items-center pr-2">
+<span class="font-label-sm text-[10px] text-on-surface-variant font-semibold">Cá Hề</span>
+<span class="font-headline-lg text-headline-lg text-on-surface leading-none">7</span>
+</div>
+</div>
+</div>
+<!-- FISH 3: CA NOC TRON XOE - SO 9 -->
+<div class="absolute top-[390px] right-[8%] lg:right-[14%] z-20 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+<div class="flex items-center gap-2 bg-surface-container-lowest/90 px-3.5 py-2 rounded-full shadow-[0_4px_0_0_#bfcabb,0_8px_16px_rgba(0,0,0,0.15)]">
+<div class="w-10 h-10 rounded-full overflow-hidden bg-surface-container shadow-[inset_0_-2px_0_0_#d8dad9] flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Round yellow pufferfish character with rosy cheeks and tiny cute spikes, cartoon 3D style for elementary school math game." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRDaXATm-LTXD4VvgkgOUCtnT_qxturCp8Bg9PoMAncIrq1XVsqpv3u5bkE0e_6kEARVa12FsU0z0_ZDgbxzol2pBt_T44bsAcSxhta2fhPrb-gZVe2UL9a03sAOIo1L05SP39k8Nrww3sWGrtLC6t0pp7Hj-67NuE2rRQcZs-HjkO6bhYJhkawod4dClOrXb4_BI0z0Gb37HtXwy0gu_9HfJ3L1ymbQr2CijbsrYZ5cr-sXkcClKrGg"/>
+</div>
+<div class="flex flex-col items-center pr-2">
+<span class="font-label-sm text-[10px] text-on-surface-variant font-semibold">Cá Nóc</span>
+<span class="font-headline-lg text-headline-lg text-on-surface leading-none">9</span>
+</div>
+</div>
+</div>
+<!-- FISH 4: CA VANG BOI DUOI SAU - SO 6 -->
+<div class="absolute top-[460px] left-[32%] lg:left-[30%] z-20 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+<div class="flex items-center gap-2 bg-surface-container-lowest/90 px-3.5 py-2 rounded-full shadow-[0_4px_0_0_#bfcabb,0_8px_16px_rgba(0,0,0,0.15)]">
+<div class="w-10 h-10 rounded-full overflow-hidden bg-surface-container shadow-[inset_0_-2px_0_0_#d8dad9] flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Shiny golden goldfish with soft wavy fins, smiling friendly eyes, stylized 3D cute cartoon asset." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdGsD-xMFBP0NRPSTQ0F3iLp9VPvBYysoJ5IDCfIWtVEiG_el3gsW2kw5kc7J-kVQwYfL2AvmX4mA7ynv_Q1AZz6gbeb4MEhJDNS_wjEu26CTmeb3KG4jZVcjSgresQSCG6pZCnYgWzH3gZaCfIV0lhwokxPMxqZzLeTUD3RTEqB0MJqeuGNR-My0jOccTmxzfHEhNE-mJV5ZJJrXDl5aotZcTo48aewhekUzVNCK1pR982gypGU2pag"/>
+</div>
+<div class="flex flex-col items-center pr-2">
+<span class="font-label-sm text-[10px] text-on-surface-variant font-semibold">Cá Vàng</span>
+<span class="font-headline-lg text-headline-lg text-on-surface leading-none">6</span>
+</div>
+</div>
+</div>
+<!-- Seabed Corals & Deep Water Atmosphere Layer -->
+<div class="absolute bottom-0 left-0 right-0 h-28 pointer-events-none z-10 flex items-end justify-between px-4">
+<!-- Colorful Coral Graphic Cluster Left -->
+<svg class="w-48 h-24 text-primary-fixed-dim opacity-75" fill="currentColor" viewbox="0 0 200 100">
+<path d="M10,100 C15,70 25,60 30,50 C35,40 30,30 38,20 C42,12 50,15 52,25 C55,40 45,65 55,100 Z"></path>
+<path d="M60,100 C70,75 85,55 95,45 C105,35 115,45 110,60 C105,75 90,85 100,100 Z" opacity="0.6"></path>
+<circle cx="130" cy="85" fill="#f7be23" opacity="0.7" r="14"></circle>
+<circle cx="145" cy="88" fill="#f7be23" opacity="0.8" r="8"></circle>
+</svg>
+<!-- Colorful Coral Graphic Cluster Right -->
+<svg class="w-48 h-24 text-secondary-fixed opacity-70" fill="currentColor" viewbox="0 0 200 100">
+<path d="M180,100 C175,70 160,50 150,40 C140,30 145,20 135,15 C125,10 120,25 125,40 C130,55 145,75 140,100 Z"></path>
+<circle cx="70" cy="80" fill="#89fa9b" opacity="0.5" r="18"></circle>
+<circle cx="45" cy="85" fill="#ffdf9d" opacity="0.8" r="10"></circle>
+</svg>
+</div>
+</div>
+<!-- TACTILE FISHING CONTROLLER CONSOLE (BẢNG ĐIỀU KHIỂN CẦN CÂU 3D) -->
+<div class="w-full bg-surface-container-lowest rounded-3xl p-4 lg:p-5 shadow-[0_8px_24px_rgba(0,0,0,0.06)] flex flex-col md:flex-row items-center justify-between gap-space-md">
+<!-- Tactile Primary Fishing Action Buttons -->
+<div class="flex items-center flex-wrap gap-3 w-full md:w-auto justify-center md:justify-start">
+<!-- Big Chunky Primary Drop Hook Button -->
+<button class="h-16 px-8 rounded-2xl bg-primary hover:bg-primary-container text-on-primary font-headline-md text-headline-md flex items-center gap-3 shadow-[0_6px_0_0_#005320] active:translate-y-1.5 active:shadow-[0_0_0_0_#005320] transition-all cursor-pointer" id="btn-drop-hook">
+<span class="material-symbols-outlined text-[30px] text-tertiary-fixed">phishing</span>
+<span>Thả Cần Câu 🎣</span>
+</button>
+<!-- Quick Reel In Button -->
+<button class="h-16 px-5 rounded-2xl bg-surface-container-low hover:bg-surface-container text-on-surface font-headline-sm text-label-lg flex items-center gap-2 shadow-[0_5px_0_0_#bfcabb] active:translate-y-1 active:shadow-none transition-all cursor-pointer">
+<span class="material-symbols-outlined text-[24px] text-tertiary">bolt</span>
+<span>Kéo Dây Nhanh</span>
+</button>
+<!-- Super Bait Powerup -->
+<button class="h-16 px-5 rounded-2xl bg-tertiary-fixed hover:bg-tertiary-fixed-dim text-on-tertiary-fixed font-headline-sm text-label-lg flex items-center gap-2 shadow-[0_5px_0_0_#f7be23] active:translate-y-1 active:shadow-none transition-all cursor-pointer">
+<span class="material-symbols-outlined text-[24px] text-tertiary">flare</span>
+<span>Mồi Siêu Tốc</span>
+</button>
+</div>
+<!-- Sound & Audio Controls for Classroom Accessibility -->
+<div class="flex items-center gap-2">
+<button aria-label="Bật tắt âm thanh đại dương" class="w-12 h-12 rounded-2xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant flex items-center justify-center shadow-[0_3px_0_0_#bfcabb] active:translate-y-0.5 active:shadow-none">
+<span class="material-symbols-outlined">volume_up</span>
+</button>
+<button aria-label="Trợ giúp bảng chia" class="w-12 h-12 rounded-2xl bg-secondary-fixed hover:bg-secondary-fixed-dim text-on-secondary-fixed flex items-center justify-center shadow-[0_3px_0_0_#6ddd81] active:translate-y-0.5 active:shadow-none">
+<span class="material-symbols-outlined">help_center</span>
+</button>
+</div>
+</div>
+<!-- PEDAGOGICAL HINT BOX: CHÚ RÙA BIỂN TRÍ TUỆ -->
+<div class="w-full bg-surface-container-low rounded-3xl p-4 lg:p-5 shadow-[0_4px_16px_rgba(0,0,0,0.04)] flex items-start sm:items-center gap-4">
+<div class="relative w-16 h-16 rounded-2xl overflow-hidden bg-primary-fixed shadow-[inset_0_-3px_0_0_#80da8d] flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Wise animated sea turtle scholar wearing tiny reading glasses and a graduation mortarboard hat, gentle warm expression, educational 3D character." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIFZe6tLkqEm1NnFW-w19oFvoWkCgjD4VmeM8rQSiz_jOZk0KBRufMa6PgNKrhoscb6zIyosev_zqi7A5m05ap3MinBkpXgizs2HOCKuaBM0HMZpqm5tj9dhkDjVHMVL0sgkiUqN5XkXZNcurRDj7nVguU7hzvVqjpa00xW_JgHaJJOgdUaElmxAFpU3q-9skUDaGLWyJEllhzvXsoS-uyKcXDzMCddPoqsi2cWyytAHBMOaqpOMT08w"/>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-label-md text-primary">Lời Khuyên Của Chú Rùa Biển Trí Tuệ:</span>
+<span class="px-2 py-0.5 rounded-md bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[11px] font-bold">Mẹo Nhẩm Nhanh</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+              “Để tìm <span class="font-bold text-primary">48 : 6 = ?</span>, em hãy nhẩm ngược lại: <em>Mấy nhân với 6 thì bằng 48 nhỉ?</em> Đúng rồi: <span class="font-bold text-tertiary">6 × 8 = 48</span>, do đó <span class="font-bold text-primary">48 : 6 = 8</span>! Bé hãy ngắm chuẩn chú Cá Heo nhé!”
+            </p>
+</div>
+</div>
+</div>
+<!-- RIGHT SIDEBAR: ARENA MODES, CREATURE AQUARIUM & LEADERBOARD (4 COLS) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<!-- CARD 1: 5 ARENA MINIGAMES SELECTOR -->
+<div class="w-full bg-surface-container-lowest rounded-3xl p-5 shadow-[0_8px_24px_rgba(0,0,0,0.06)] flex flex-col gap-space-sm">
+<div class="flex items-center justify-between pb-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[24px]">sports_esports</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Đấu Trường 5 Trò Chơi</h2>
+</div>
+<span class="font-label-sm text-[12px] text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Kỳ 1</span>
+</div>
+<div class="flex flex-col gap-2">
+<!-- 1. Ball Shooter -->
+<a class="flex items-center justify-between p-2.5 rounded-2xl bg-surface-container-low hover:bg-surface-container text-on-surface transition-all" href="#">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded-xl bg-surface-container-highest flex items-center justify-center font-headline-sm text-label-sm text-on-surface-variant">1</span>
+<span class="font-headline-sm text-label-md">Bắn bóng phép tính</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-outline">chevron_right</span>
+</a>
+<!-- 2. Racing Track -->
+<a class="flex items-center justify-between p-2.5 rounded-2xl bg-surface-container-low hover:bg-surface-container text-on-surface transition-all" href="#">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded-xl bg-surface-container-highest flex items-center justify-center font-headline-sm text-label-sm text-on-surface-variant">2</span>
+<span class="font-headline-sm text-label-md">Đua xe vượt chướng ngại</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-outline">chevron_right</span>
+</a>
+<!-- 3. Memory Card Flip -->
+<a class="flex items-center justify-between p-2.5 rounded-2xl bg-surface-container-low hover:bg-surface-container text-on-surface transition-all" href="#">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded-xl bg-surface-container-highest flex items-center justify-center font-headline-sm text-label-sm text-on-surface-variant">3</span>
+<span class="font-headline-sm text-label-md">Lật thẻ trí nhớ 4×4</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-outline">chevron_right</span>
+</a>
+<!-- 4. Ocean Fishing (ACTIVE PLAYING) -->
+<div class="flex items-center justify-between p-3 rounded-2xl bg-primary text-on-primary shadow-[0_4px_0_0_#005320]">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded-xl bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-headline-sm text-label-sm font-bold">4</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md leading-tight">Câu cá đại dương</span>
+<span class="font-label-sm text-[11px] text-primary-fixed font-semibold">ĐANG CHƠI • VÒNG 8</span>
+</div>
+</div>
+<span class="w-3 h-3 rounded-full bg-secondary-fixed-dim animate-ping"></span>
+</div>
+<!-- 5. Quiz Relay Bo Bo -->
+<a class="flex items-center justify-between p-2.5 rounded-2xl bg-surface-container-low hover:bg-surface-container text-on-surface transition-all" href="#">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded-xl bg-surface-container-highest flex items-center justify-center font-headline-sm text-label-sm text-on-surface-variant">5</span>
+<span class="font-headline-sm text-label-md">Đố vui cùng Robot Bo Bo</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-outline">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- CARD 2: THÙNG SƯU TẬP SINH VẬT BIỂN ĐÃ CÂU (COLLECTION CHEST) -->
+<div class="w-full bg-surface-container-lowest rounded-3xl p-5 shadow-[0_8px_24px_rgba(0,0,0,0.06)] flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[24px]">inventory_2</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Thùng Sưu Tập Sinh Vật Biển</h2>
+</div>
+<span class="font-headline-sm text-label-sm text-primary font-bold">4 / 6 Loài</span>
+</div>
+<!-- Creature Badges Grid -->
+<div class="grid grid-cols-3 gap-2.5">
+<!-- Creature 1 -->
+<div class="p-2.5 rounded-2xl bg-surface-container-low flex flex-col items-center text-center gap-1">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center shadow-[inset_0_-2px_0_0_#6ddd81]">
+<span class="material-symbols-outlined text-secondary text-[22px]">water_lux</span>
+</div>
+<span class="font-label-sm text-[11px] font-bold text-on-surface leading-tight">Cá Heo Chia 6</span>
+<span class="font-body-sm text-[10px] text-primary font-semibold">×3 con</span>
+</div>
+<!-- Creature 2 -->
+<div class="p-2.5 rounded-2xl bg-surface-container-low flex flex-col items-center text-center gap-1">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center shadow-[inset_0_-2px_0_0_#f7be23]">
+<span class="material-symbols-outlined text-tertiary text-[22px]">cruelty_free</span>
+</div>
+<span class="font-label-sm text-[11px] font-bold text-on-surface leading-tight">Rùa Vàng Cửu Chương</span>
+<span class="font-body-sm text-[10px] text-primary font-semibold">×1 con</span>
+</div>
+<!-- Creature 3 -->
+<div class="p-2.5 rounded-2xl bg-surface-container-low flex flex-col items-center text-center gap-1">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center shadow-[inset_0_-2px_0_0_#80da8d]">
+<span class="material-symbols-outlined text-primary text-[22px]">sound_detection_dog_barking</span>
+</div>
+<span class="font-label-sm text-[11px] font-bold text-on-surface leading-tight">Hải Cẩu Bảng 7</span>
+<span class="font-body-sm text-[10px] text-primary font-semibold">×2 con</span>
+</div>
+<!-- Creature 4 -->
+<div class="p-2.5 rounded-2xl bg-surface-container-low flex flex-col items-center text-center gap-1">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center shadow-[inset_0_-2px_0_0_#006e2c]">
+<span class="material-symbols-outlined text-on-secondary-container text-[22px]">flutter</span>
+</div>
+<span class="font-label-sm text-[11px] font-bold text-on-surface leading-tight">Cá Đuối Phép Nhân</span>
+<span class="font-body-sm text-[10px] text-primary font-semibold">×1 con</span>
+</div>
+<!-- Locked Creature 5 -->
+<div class="p-2.5 rounded-2xl bg-surface-container-highest/60 flex flex-col items-center text-center gap-1 opacity-70">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-outline text-[20px]">lock</span>
+</div>
+<span class="font-label-sm text-[11px] font-medium text-on-surface-variant leading-tight">Cá Voi Khổng Lồ</span>
+<span class="font-body-sm text-[10px] text-outline font-semibold">Chưa mở</span>
+</div>
+<!-- Locked Creature 6 -->
+<div class="p-2.5 rounded-2xl bg-surface-container-highest/60 flex flex-col items-center text-center gap-1 opacity-70">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-outline text-[20px]">lock</span>
+</div>
+<span class="font-label-sm text-[11px] font-medium text-on-surface-variant leading-tight">Bạch Tuộc 10 Chân</span>
+<span class="font-body-sm text-[10px] text-outline font-semibold">Chưa mở</span>
+</div>
+</div>
+</div>
+<!-- CARD 3: BẢNG XẾP HẠNG NGƯ THỦ NHÍ LỚP 3A -->
+<div class="w-full bg-surface-container-lowest rounded-3xl p-5 shadow-[0_8px_24px_rgba(0,0,0,0.06)] flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-[24px]">military_tech</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Ngư Thủ Nhí Lớp 3A</h2>
+</div>
+<span class="font-label-sm text-[11px] text-primary font-bold">Tuần Này</span>
+</div>
+<div class="flex flex-col gap-2">
+<!-- Rank 1: Mai Anh -->
+<div class="flex items-center justify-between p-2.5 rounded-2xl bg-tertiary-fixed/40">
+<div class="flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm flex items-center justify-center font-bold shadow-[0_2px_0_0_#f7be23]">
+                  1
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Lê Mai Anh</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Câu 10/10 cá • 38s</span>
+</div>
+</div>
+<span class="font-headline-sm text-label-md text-tertiary font-bold">1.420 đ</span>
+</div>
+<!-- Rank 2: Bao Nam (Current User) -->
+<div class="flex items-center justify-between p-2.5 rounded-2xl bg-secondary-fixed/50 ring-2 ring-primary-container">
+<div class="flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-full bg-secondary-fixed text-on-secondary-fixed font-headline-sm text-label-sm flex items-center justify-center font-bold shadow-[0_2px_0_0_#6ddd81]">
+                  2
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-primary font-bold leading-tight">Học sinh (Em)</span>
+<span class="font-body-sm text-[11px] text-primary font-semibold">Đang lặn • 7 cá</span>
+</div>
+</div>
+<span class="font-headline-sm text-label-md text-primary font-bold">1.250 đ</span>
+</div>
+<!-- Rank 3: Duc Minh -->
+<div class="flex items-center justify-between p-2.5 rounded-2xl bg-surface-container-low">
+<div class="flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-full bg-surface-container text-on-surface-variant font-headline-sm text-label-sm flex items-center justify-center font-bold">
+                  3
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Trần Đức Minh</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Câu 8/10 cá • 58s</span>
+</div>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface-variant font-bold">1.180 đ</span>
+</div>
+<!-- Rank 4: Ha Linh -->
+<div class="flex items-center justify-between p-2.5 rounded-2xl bg-surface-container-low">
+<div class="flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-full bg-surface-container text-on-surface-variant font-headline-sm text-label-sm flex items-center justify-center font-bold">
+                  4
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Phạm Hà Linh</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Câu 7/10 cá • 64s</span>
+</div>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface-variant font-bold">1.040 đ</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- INTERACTIVE CLIENT JAVASCRIPT FOR HOOK & CATCH SIMULATION -->
+
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-4px_20px_rgba(0,0,0,0.03)] py-space-lg" data-shared-footer=""><div class="w-full px-gutter-mobile lg:px-margin max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-2xl bg-secondary-container text-on-secondary-container flex items-center justify-center font-headline-md shadow-[0_3px_0_0_#006e2c]"><span class="material-symbols-outlined">school</span></div><div><p class="font-headline-sm text-label-lg text-primary leading-tight">Trường Tiểu học Hoàng Mai - Hà Nội</p><p class="font-body-sm text-body-sm text-on-surface-variant">Vườn Toán Thông Minh Dành Cho Học Sinh Lớp 3</p></div></div><div class="flex flex-wrap items-center justify-center gap-space-md text-on-surface-variant font-label-md text-label-md"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[20px]">menu_book</span> Chương trình GDPT 2018</span><span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[20px]">support_agent</span> Phòng Thiết bị số Hoàng Mai</span><span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[20px]">call</span> Hotline: (024) 3861 2xxx</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-center">© 2025 Trường Tiểu học Hoàng Mai. Dành trọn tình yêu thương cho học sinh lớp 3.</p></div></footer>
+<script src="assets/js/core/api.js"></script>
+<script src="assets/js/components/sidebar.js"></script>
+<script src="assets/js/components/navbar.js"></script>
+<script src="assets/js/components/footer.js"></script>
+<script src="assets/js/core/app.js"></script>
+<script src="assets/js/core/game-score.js"></script>
+<script src="assets/js/pages/game4.js"></script>
+</body>
+</html>

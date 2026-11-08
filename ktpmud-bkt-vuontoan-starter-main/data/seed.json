@@ -1,0 +1,3024 @@
+{
+  "users": [
+    {
+      "username": "giaovien01",
+      "password": "123456",
+      "fullName": "Cô Lan Anh (GV Chủ nhiệm minh họa)",
+      "role": "teacher",
+      "className": "3A2",
+      "studentCode": "GV-01",
+      "totalStars": 0,
+      "avatar": "assets/img/ong-vang-hoang-mai.png"
+    },
+    {
+      "username": "hocsinh01",
+      "password": "123456",
+      "fullName": "Học sinh Lớp 3A2",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-08",
+      "totalStars": 1250
+    },
+    {
+      "username": "hocsinh02",
+      "password": "123456",
+      "fullName": "Học sinh 02",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-02",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh03",
+      "password": "123456",
+      "fullName": "Học sinh 03",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-03",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh04",
+      "password": "123456",
+      "fullName": "Học sinh 04",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-04",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh05",
+      "password": "123456",
+      "fullName": "Học sinh 05",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-05",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh06",
+      "password": "123456",
+      "fullName": "Học sinh 06",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-06",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh07",
+      "password": "123456",
+      "fullName": "Học sinh 07",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-07",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh08",
+      "password": "123456",
+      "fullName": "Học sinh 08",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-08",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh09",
+      "password": "123456",
+      "fullName": "Học sinh 09",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-09",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh10",
+      "password": "123456",
+      "fullName": "Học sinh 10",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-10",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh11",
+      "password": "123456",
+      "fullName": "Học sinh 11",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-11",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh12",
+      "password": "123456",
+      "fullName": "Học sinh 12",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-12",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh13",
+      "password": "123456",
+      "fullName": "Học sinh 13",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-13",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh14",
+      "password": "123456",
+      "fullName": "Học sinh 14",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-14",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh15",
+      "password": "123456",
+      "fullName": "Học sinh 15",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-15",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh16",
+      "password": "123456",
+      "fullName": "Học sinh 16",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-16",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh17",
+      "password": "123456",
+      "fullName": "Học sinh 17",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-17",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh18",
+      "password": "123456",
+      "fullName": "Học sinh 18",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-18",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh19",
+      "password": "123456",
+      "fullName": "Học sinh 19",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-19",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh20",
+      "password": "123456",
+      "fullName": "Học sinh 20",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-20",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh21",
+      "password": "123456",
+      "fullName": "Học sinh 21",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-21",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh22",
+      "password": "123456",
+      "fullName": "Học sinh 22",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-22",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh23",
+      "password": "123456",
+      "fullName": "Học sinh 23",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-23",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh24",
+      "password": "123456",
+      "fullName": "Học sinh 24",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-24",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh25",
+      "password": "123456",
+      "fullName": "Học sinh 25",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-25",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh26",
+      "password": "123456",
+      "fullName": "Học sinh 26",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-26",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh27",
+      "password": "123456",
+      "fullName": "Học sinh 27",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-27",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh28",
+      "password": "123456",
+      "fullName": "Học sinh 28",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-28",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh29",
+      "password": "123456",
+      "fullName": "Học sinh 29",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-29",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh30",
+      "password": "123456",
+      "fullName": "Học sinh 30",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-30",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh31",
+      "password": "123456",
+      "fullName": "Học sinh 31",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-31",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh32",
+      "password": "123456",
+      "fullName": "Học sinh 32",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-32",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh33",
+      "password": "123456",
+      "fullName": "Học sinh 33",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-33",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh34",
+      "password": "123456",
+      "fullName": "Học sinh 34",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-34",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh35",
+      "password": "123456",
+      "fullName": "Học sinh 35",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-35",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh36",
+      "password": "123456",
+      "fullName": "Học sinh 36",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-36",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh37",
+      "password": "123456",
+      "fullName": "Học sinh 37",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-37",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh38",
+      "password": "123456",
+      "fullName": "Học sinh 38",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-38",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh39",
+      "password": "123456",
+      "fullName": "Học sinh 39",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-39",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh40",
+      "password": "123456",
+      "fullName": "Học sinh 40",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-40",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh41",
+      "password": "123456",
+      "fullName": "Học sinh 41",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-41",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh42",
+      "password": "123456",
+      "fullName": "Học sinh 42",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-42",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh43",
+      "password": "123456",
+      "fullName": "Học sinh 43",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-43",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh44",
+      "password": "123456",
+      "fullName": "Học sinh 44",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-44",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh45",
+      "password": "123456",
+      "fullName": "Học sinh 45",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-45",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh46",
+      "password": "123456",
+      "fullName": "Học sinh 46",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-46",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh47",
+      "password": "123456",
+      "fullName": "Học sinh 47",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-47",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh48",
+      "password": "123456",
+      "fullName": "Học sinh 48",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-48",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh49",
+      "password": "123456",
+      "fullName": "Học sinh 49",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-49",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh50",
+      "password": "123456",
+      "fullName": "Học sinh 50",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-50",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh51",
+      "password": "123456",
+      "fullName": "Học sinh 51",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-51",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh52",
+      "password": "123456",
+      "fullName": "Học sinh 52",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-52",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh53",
+      "password": "123456",
+      "fullName": "Học sinh 53",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-53",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh54",
+      "password": "123456",
+      "fullName": "Học sinh 54",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-54",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh55",
+      "password": "123456",
+      "fullName": "Học sinh 55",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-55",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh56",
+      "password": "123456",
+      "fullName": "Học sinh 56",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-56",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh57",
+      "password": "123456",
+      "fullName": "Học sinh 57",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-57",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh58",
+      "password": "123456",
+      "fullName": "Học sinh 58",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-58",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh59",
+      "password": "123456",
+      "fullName": "Học sinh 59",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-59",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh60",
+      "password": "123456",
+      "fullName": "Học sinh 60",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-60",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh61",
+      "password": "123456",
+      "fullName": "Học sinh 61",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-61",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh62",
+      "password": "123456",
+      "fullName": "Học sinh 62",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-62",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh63",
+      "password": "123456",
+      "fullName": "Học sinh 63",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-63",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh64",
+      "password": "123456",
+      "fullName": "Học sinh 64",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-64",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh65",
+      "password": "123456",
+      "fullName": "Học sinh 65",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-65",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh66",
+      "password": "123456",
+      "fullName": "Học sinh 66",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-66",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh67",
+      "password": "123456",
+      "fullName": "Học sinh 67",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-67",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh68",
+      "password": "123456",
+      "fullName": "Học sinh 68",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-68",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh69",
+      "password": "123456",
+      "fullName": "Học sinh 69",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-69",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh70",
+      "password": "123456",
+      "fullName": "Học sinh 70",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-70",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh71",
+      "password": "123456",
+      "fullName": "Học sinh 71",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-71",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh72",
+      "password": "123456",
+      "fullName": "Học sinh 72",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-72",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh73",
+      "password": "123456",
+      "fullName": "Học sinh 73",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-73",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh74",
+      "password": "123456",
+      "fullName": "Học sinh 74",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-74",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh75",
+      "password": "123456",
+      "fullName": "Học sinh 75",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-75",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh76",
+      "password": "123456",
+      "fullName": "Học sinh 76",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-76",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh77",
+      "password": "123456",
+      "fullName": "Học sinh 77",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-77",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh78",
+      "password": "123456",
+      "fullName": "Học sinh 78",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-78",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh79",
+      "password": "123456",
+      "fullName": "Học sinh 79",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-79",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh80",
+      "password": "123456",
+      "fullName": "Học sinh 80",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-80",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh81",
+      "password": "123456",
+      "fullName": "Học sinh 81",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-81",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh82",
+      "password": "123456",
+      "fullName": "Học sinh 82",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-82",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh83",
+      "password": "123456",
+      "fullName": "Học sinh 83",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-83",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh84",
+      "password": "123456",
+      "fullName": "Học sinh 84",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-84",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh85",
+      "password": "123456",
+      "fullName": "Học sinh 85",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-85",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh86",
+      "password": "123456",
+      "fullName": "Học sinh 86",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-86",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh87",
+      "password": "123456",
+      "fullName": "Học sinh 87",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-87",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh88",
+      "password": "123456",
+      "fullName": "Học sinh 88",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-88",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh89",
+      "password": "123456",
+      "fullName": "Học sinh 89",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-89",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh90",
+      "password": "123456",
+      "fullName": "Học sinh 90",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-90",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh91",
+      "password": "123456",
+      "fullName": "Học sinh 91",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-91",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh92",
+      "password": "123456",
+      "fullName": "Học sinh 92",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-92",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh93",
+      "password": "123456",
+      "fullName": "Học sinh 93",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-93",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh94",
+      "password": "123456",
+      "fullName": "Học sinh 94",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-94",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh95",
+      "password": "123456",
+      "fullName": "Học sinh 95",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-95",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh96",
+      "password": "123456",
+      "fullName": "Học sinh 96",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-96",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh97",
+      "password": "123456",
+      "fullName": "Học sinh 97",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-97",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh98",
+      "password": "123456",
+      "fullName": "Học sinh 98",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-98",
+      "totalStars": 0
+    },
+    {
+      "username": "hocsinh99",
+      "password": "123456",
+      "fullName": "Học sinh 99",
+      "role": "student",
+      "className": "3A2",
+      "studentCode": "HM-3A-99",
+      "totalStars": 0
+    }
+  ],
+  "lessons": [
+    {
+      "id": "bai-1",
+      "number": 1,
+      "title": "Ôn tập các số đến 1000",
+      "description": "Ôn tập các số đến 1000.",
+      "topic": "Chủ đề 1: Ôn tập và bổ sung",
+      "unlockAfter": null
+    },
+    {
+      "id": "bai-2",
+      "number": 2,
+      "title": "Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+      "description": "Ôn tập phép cộng, phép trừ trong phạm vi 1000.",
+      "topic": "Chủ đề 1: Ôn tập và bổ sung",
+      "unlockAfter": "bai-1"
+    },
+    {
+      "id": "bai-3",
+      "number": 3,
+      "title": "Tìm thành phần trong phép cộng, phép trừ",
+      "description": "Tìm thành phần trong phép cộng, phép trừ.",
+      "topic": "Chủ đề 1: Ôn tập và bổ sung",
+      "unlockAfter": "bai-2"
+    },
+    {
+      "id": "bai-4",
+      "number": 4,
+      "title": "Ôn tập bảng nhân 2; 5, bảng chia 2; 5",
+      "description": "Ôn tập bảng nhân 2; 5, bảng chia 2; 5.",
+      "topic": "Chủ đề 1: Ôn tập và bổ sung",
+      "unlockAfter": "bai-3"
+    },
+    {
+      "id": "bai-5",
+      "number": 5,
+      "title": "Bảng nhân 3, bảng chia 3",
+      "description": "Bảng nhân 3, bảng chia 3.",
+      "topic": "Chủ đề 1: Ôn tập và bổ sung",
+      "unlockAfter": "bai-4"
+    },
+    {
+      "id": "bai-6",
+      "number": 6,
+      "title": "Bảng nhân 4, bảng chia 4",
+      "description": "Bảng nhân 4, bảng chia 4.",
+      "topic": "Chủ đề 1: Ôn tập và bổ sung",
+      "unlockAfter": "bai-5"
+    },
+    {
+      "id": "bai-7",
+      "number": 7,
+      "title": "Ôn tập hình học và đo lường",
+      "description": "Ôn tập hình học và đo lường.",
+      "topic": "Chủ đề 1: Ôn tập và bổ sung",
+      "unlockAfter": "bai-6"
+    },
+    {
+      "id": "bai-8",
+      "number": 8,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 1: Ôn tập và bổ sung",
+      "unlockAfter": "bai-7"
+    },
+    {
+      "id": "bai-9",
+      "number": 9,
+      "title": "Bảng nhân 6",
+      "description": "Hình thành bảng nhân 6, giải toán có lời văn gấp lên nhiều lần.",
+      "topic": "Chủ đề 2: Bảng nhân & bảng chia",
+      "unlockAfter": "bai-8"
+    },
+    {
+      "id": "bai-10",
+      "number": 10,
+      "title": "Bảng chia 6",
+      "description": "Mối quan hệ nhân - chia, tìm thành phần chưa biết của phép nhân.",
+      "topic": "Chủ đề 2: Bảng nhân & bảng chia",
+      "unlockAfter": "bai-9"
+    },
+    {
+      "id": "bai-11",
+      "number": 11,
+      "title": "Bảng nhân 7",
+      "description": "Đếm thêm 7, học thuộc bảng nhân 7 và vận dụng tính chu vi tam giác đều.",
+      "topic": "Chủ đề 2: Bảng nhân & bảng chia",
+      "unlockAfter": "bai-10"
+    },
+    {
+      "id": "bai-12",
+      "number": 12,
+      "title": "Bảng chia 7",
+      "description": "Hình thành bảng chia 7 dựa vào bảng nhân 7, chia đều nhóm đồ vật.",
+      "topic": "Chủ đề 2: Bảng nhân & bảng chia",
+      "unlockAfter": "bai-11"
+    },
+    {
+      "id": "bai-13",
+      "number": 13,
+      "title": "Bảng nhân 8, Bảng chia 8",
+      "description": "Quy luật nhân chia với 8, giải các bài toán thực hành thực tế.",
+      "topic": "Chủ đề 2: Bảng nhân & bảng chia",
+      "unlockAfter": "bai-12"
+    },
+    {
+      "id": "bai-14",
+      "number": 14,
+      "title": "Bảng nhân 9, Bảng chia 9",
+      "description": "Quy luật ngón tay thần kỳ của số 9 và ứng dụng giảm một số đi một số lần.",
+      "topic": "Chủ đề 2: Bảng nhân & bảng chia",
+      "unlockAfter": "bai-13"
+    },
+    {
+      "id": "bai-15",
+      "number": 15,
+      "title": "Kiểm tra tổng hợp tháng 10",
+      "description": "Bài kiểm tra tổng hợp kiến thức từ Bài 9 đến Bài 14.",
+      "topic": "Kiểm tra định kỳ",
+      "unlockAfter": "bai-14"
+    },
+    {
+      "id": "bai-16",
+      "number": 16,
+      "title": "Điểm ở giữa, trung điểm của đoạn thẳng",
+      "description": "Điểm ở giữa, trung điểm của đoạn thẳng.",
+      "topic": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
+      "unlockAfter": "bai-15"
+    },
+    {
+      "id": "bai-17",
+      "number": 17,
+      "title": "Hình tròn. Tâm, bán kính, đường kính của hình tròn",
+      "description": "Hình tròn. Tâm, bán kính, đường kính của hình tròn.",
+      "topic": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
+      "unlockAfter": "bai-16"
+    },
+    {
+      "id": "bai-18",
+      "number": 18,
+      "title": "Góc, góc vuông, góc không vuông",
+      "description": "Góc, góc vuông, góc không vuông.",
+      "topic": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
+      "unlockAfter": "bai-17"
+    },
+    {
+      "id": "bai-19",
+      "number": 19,
+      "title": "Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông",
+      "description": "Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông.",
+      "topic": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
+      "unlockAfter": "bai-18"
+    },
+    {
+      "id": "bai-20",
+      "number": 20,
+      "title": "Thực hành vẽ góc vuông, vẽ đường tròn, hình vuông, hình chữ nhật và vẽ trang trí",
+      "description": "Thực hành vẽ góc vuông, vẽ đường tròn, hình vuông, hình chữ nhật và vẽ trang trí.",
+      "topic": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
+      "unlockAfter": "bai-19"
+    },
+    {
+      "id": "bai-21",
+      "number": 21,
+      "title": "Khối lập phương, khối hộp chữ nhật",
+      "description": "Khối lập phương, khối hộp chữ nhật.",
+      "topic": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
+      "unlockAfter": "bai-20"
+    },
+    {
+      "id": "bai-22",
+      "number": 22,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
+      "unlockAfter": "bai-21"
+    },
+    {
+      "id": "bai-23",
+      "number": 23,
+      "title": "Nhân số có hai chữ số với số có một chữ số",
+      "description": "Nhân số có hai chữ số với số có một chữ số.",
+      "topic": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+      "unlockAfter": "bai-22"
+    },
+    {
+      "id": "bai-24",
+      "number": 24,
+      "title": "Gấp một số lên một số lần",
+      "description": "Gấp một số lên một số lần.",
+      "topic": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+      "unlockAfter": "bai-23"
+    },
+    {
+      "id": "bai-25",
+      "number": 25,
+      "title": "Phép chia hết, phép chia có dư",
+      "description": "Phép chia hết, phép chia có dư.",
+      "topic": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+      "unlockAfter": "bai-24"
+    },
+    {
+      "id": "bai-26",
+      "number": 26,
+      "title": "Chia số có hai chữ số cho số có một chữ số",
+      "description": "Chia số có hai chữ số cho số có một chữ số.",
+      "topic": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+      "unlockAfter": "bai-25"
+    },
+    {
+      "id": "bai-27",
+      "number": 27,
+      "title": "Giảm một số đi một số lần",
+      "description": "Giảm một số đi một số lần.",
+      "topic": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+      "unlockAfter": "bai-26"
+    },
+    {
+      "id": "bai-28",
+      "number": 28,
+      "title": "Bài toán giải bằng hai bước tính",
+      "description": "Bài toán giải bằng hai bước tính.",
+      "topic": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+      "unlockAfter": "bai-27"
+    },
+    {
+      "id": "bai-29",
+      "number": 29,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+      "unlockAfter": "bai-28"
+    },
+    {
+      "id": "bai-30",
+      "number": 30,
+      "title": "Mi-li-mét",
+      "description": "Mi-li-mét.",
+      "topic": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+      "unlockAfter": "bai-29"
+    },
+    {
+      "id": "bai-31",
+      "number": 31,
+      "title": "Gam",
+      "description": "Gam.",
+      "topic": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+      "unlockAfter": "bai-30"
+    },
+    {
+      "id": "bai-32",
+      "number": 32,
+      "title": "Mi-li-lít",
+      "description": "Mi-li-lít.",
+      "topic": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+      "unlockAfter": "bai-31"
+    },
+    {
+      "id": "bai-33",
+      "number": 33,
+      "title": "Nhiệt độ. Đơn vị đo nhiệt độ",
+      "description": "Nhiệt độ. Đơn vị đo nhiệt độ.",
+      "topic": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+      "unlockAfter": "bai-32"
+    },
+    {
+      "id": "bai-34",
+      "number": 34,
+      "title": "Thực hành và trải nghiệm với các đơn vị mi-li-mét, gam, mi-li-lít, độ C",
+      "description": "Thực hành và trải nghiệm với các đơn vị mi-li-mét, gam, mi-li-lít, độ C.",
+      "topic": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+      "unlockAfter": "bai-33"
+    },
+    {
+      "id": "bai-35",
+      "number": 35,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+      "unlockAfter": "bai-34"
+    },
+    {
+      "id": "bai-36",
+      "number": 36,
+      "title": "Nhân số có ba chữ số với số có một chữ số",
+      "description": "Nhân số có ba chữ số với số có một chữ số.",
+      "topic": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1000",
+      "unlockAfter": "bai-35"
+    },
+    {
+      "id": "bai-37",
+      "number": 37,
+      "title": "Chia số có ba chữ số cho số có một chữ số",
+      "description": "Chia số có ba chữ số cho số có một chữ số.",
+      "topic": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1000",
+      "unlockAfter": "bai-36"
+    },
+    {
+      "id": "bai-38",
+      "number": 38,
+      "title": "Biểu thức số. Tính giá trị của biểu thức số",
+      "description": "Biểu thức số. Tính giá trị của biểu thức số.",
+      "topic": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1000",
+      "unlockAfter": "bai-37"
+    },
+    {
+      "id": "bai-39",
+      "number": 39,
+      "title": "So sánh số lớn gấp mấy lần số bé",
+      "description": "So sánh số lớn gấp mấy lần số bé.",
+      "topic": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1000",
+      "unlockAfter": "bai-38"
+    },
+    {
+      "id": "bai-40",
+      "number": 40,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1000",
+      "unlockAfter": "bai-39"
+    },
+    {
+      "id": "bai-41",
+      "number": 41,
+      "title": "Ôn tập phép nhân, phép chia trong phạm vi 100, 1000",
+      "description": "Ôn tập phép nhân, phép chia trong phạm vi 100, 1000.",
+      "topic": "Chủ đề 7: Ôn tập học kì 1",
+      "unlockAfter": "bai-40"
+    },
+    {
+      "id": "bai-42",
+      "number": 42,
+      "title": "Ôn tập biểu thức số",
+      "description": "Ôn tập biểu thức số.",
+      "topic": "Chủ đề 7: Ôn tập học kì 1",
+      "unlockAfter": "bai-41"
+    },
+    {
+      "id": "bai-43",
+      "number": 43,
+      "title": "Ôn tập hình học và đo lường",
+      "description": "Ôn tập hình học và đo lường.",
+      "topic": "Chủ đề 7: Ôn tập học kì 1",
+      "unlockAfter": "bai-42"
+    },
+    {
+      "id": "bai-44",
+      "number": 44,
+      "title": "Ôn tập chung",
+      "description": "Ôn tập chung.",
+      "topic": "Chủ đề 7: Ôn tập học kì 1",
+      "unlockAfter": "bai-43"
+    },
+    {
+      "id": "bai-45",
+      "number": 45,
+      "title": "Các số có bốn chữ số. Số 10 000",
+      "description": "Các số có bốn chữ số. Số 10 000.",
+      "topic": "Chủ đề 8: Các số đến 10 000",
+      "unlockAfter": "bai-44"
+    },
+    {
+      "id": "bai-46",
+      "number": 46,
+      "title": "So sánh các số trong phạm vi 10 000",
+      "description": "So sánh các số trong phạm vi 10 000.",
+      "topic": "Chủ đề 8: Các số đến 10 000",
+      "unlockAfter": "bai-45"
+    },
+    {
+      "id": "bai-47",
+      "number": 47,
+      "title": "Làm quen với chữ số La Mã",
+      "description": "Làm quen với chữ số La Mã.",
+      "topic": "Chủ đề 8: Các số đến 10 000",
+      "unlockAfter": "bai-46"
+    },
+    {
+      "id": "bai-48",
+      "number": 48,
+      "title": "Làm tròn số đến hàng chục, hàng trăm",
+      "description": "Làm tròn số đến hàng chục, hàng trăm.",
+      "topic": "Chủ đề 8: Các số đến 10 000",
+      "unlockAfter": "bai-47"
+    },
+    {
+      "id": "bai-49",
+      "number": 49,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 8: Các số đến 10 000",
+      "unlockAfter": "bai-48"
+    },
+    {
+      "id": "bai-50",
+      "number": 50,
+      "title": "Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông",
+      "description": "Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông.",
+      "topic": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
+      "unlockAfter": "bai-49"
+    },
+    {
+      "id": "bai-51",
+      "number": 51,
+      "title": "Diện tích của một hình. Xăng-ti-mét vuông",
+      "description": "Diện tích của một hình. Xăng-ti-mét vuông.",
+      "topic": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
+      "unlockAfter": "bai-50"
+    },
+    {
+      "id": "bai-52",
+      "number": 52,
+      "title": "Diện tích hình chữ nhật, diện tích hình vuông",
+      "description": "Diện tích hình chữ nhật, diện tích hình vuông.",
+      "topic": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
+      "unlockAfter": "bai-51"
+    },
+    {
+      "id": "bai-53",
+      "number": 53,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
+      "unlockAfter": "bai-52"
+    },
+    {
+      "id": "bai-54",
+      "number": 54,
+      "title": "Phép cộng trong phạm vi 10 000",
+      "description": "Phép cộng trong phạm vi 10 000.",
+      "topic": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+      "unlockAfter": "bai-53"
+    },
+    {
+      "id": "bai-55",
+      "number": 55,
+      "title": "Phép trừ trong phạm vi 10 000",
+      "description": "Phép trừ trong phạm vi 10 000.",
+      "topic": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+      "unlockAfter": "bai-54"
+    },
+    {
+      "id": "bai-56",
+      "number": 56,
+      "title": "Nhân số có bốn chữ số với số có một chữ số",
+      "description": "Nhân số có bốn chữ số với số có một chữ số.",
+      "topic": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+      "unlockAfter": "bai-55"
+    },
+    {
+      "id": "bai-57",
+      "number": 57,
+      "title": "Chia số có bốn chữ số cho số có một chữ số",
+      "description": "Chia số có bốn chữ số cho số có một chữ số.",
+      "topic": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+      "unlockAfter": "bai-56"
+    },
+    {
+      "id": "bai-58",
+      "number": 58,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+      "unlockAfter": "bai-57"
+    },
+    {
+      "id": "bai-59",
+      "number": 59,
+      "title": "Các số có năm chữ số. Số 100 000",
+      "description": "Các số có năm chữ số. Số 100 000.",
+      "topic": "Chủ đề 11: Các số đến 100 000",
+      "unlockAfter": "bai-58"
+    },
+    {
+      "id": "bai-60",
+      "number": 60,
+      "title": "So sánh các số trong phạm vi 100 000",
+      "description": "So sánh các số trong phạm vi 100 000.",
+      "topic": "Chủ đề 11: Các số đến 100 000",
+      "unlockAfter": "bai-59"
+    },
+    {
+      "id": "bai-61",
+      "number": 61,
+      "title": "Làm tròn số đến hàng nghìn, hàng chục nghìn",
+      "description": "Làm tròn số đến hàng nghìn, hàng chục nghìn.",
+      "topic": "Chủ đề 11: Các số đến 100 000",
+      "unlockAfter": "bai-60"
+    },
+    {
+      "id": "bai-62",
+      "number": 62,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 11: Các số đến 100 000",
+      "unlockAfter": "bai-61"
+    },
+    {
+      "id": "bai-63",
+      "number": 63,
+      "title": "Phép cộng trong phạm vi 100 000",
+      "description": "Phép cộng trong phạm vi 100 000.",
+      "topic": "Chủ đề 12: Cộng, trừ trong phạm vi 100 000",
+      "unlockAfter": "bai-62"
+    },
+    {
+      "id": "bai-64",
+      "number": 64,
+      "title": "Phép trừ trong phạm vi 100 000",
+      "description": "Phép trừ trong phạm vi 100 000.",
+      "topic": "Chủ đề 12: Cộng, trừ trong phạm vi 100 000",
+      "unlockAfter": "bai-63"
+    },
+    {
+      "id": "bai-65",
+      "number": 65,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 12: Cộng, trừ trong phạm vi 100 000",
+      "unlockAfter": "bai-64"
+    },
+    {
+      "id": "bai-66",
+      "number": 66,
+      "title": "Xem đồng hồ. Tháng – năm",
+      "description": "Xem đồng hồ. Tháng – năm.",
+      "topic": "Chủ đề 13: Xem đồng hồ. Tháng – năm. Tiền Việt Nam",
+      "unlockAfter": "bai-65"
+    },
+    {
+      "id": "bai-67",
+      "number": 67,
+      "title": "Thực hành xem đồng hồ, xem lịch",
+      "description": "Thực hành xem đồng hồ, xem lịch.",
+      "topic": "Chủ đề 13: Xem đồng hồ. Tháng – năm. Tiền Việt Nam",
+      "unlockAfter": "bai-66"
+    },
+    {
+      "id": "bai-68",
+      "number": 68,
+      "title": "Tiền Việt Nam",
+      "description": "Tiền Việt Nam.",
+      "topic": "Chủ đề 13: Xem đồng hồ. Tháng – năm. Tiền Việt Nam",
+      "unlockAfter": "bai-67"
+    },
+    {
+      "id": "bai-69",
+      "number": 69,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 13: Xem đồng hồ. Tháng – năm. Tiền Việt Nam",
+      "unlockAfter": "bai-68"
+    },
+    {
+      "id": "bai-70",
+      "number": 70,
+      "title": "Nhân số có năm chữ số với số có một chữ số",
+      "description": "Nhân số có năm chữ số với số có một chữ số.",
+      "topic": "Chủ đề 14: Nhân, chia trong phạm vi 100 000",
+      "unlockAfter": "bai-69"
+    },
+    {
+      "id": "bai-71",
+      "number": 71,
+      "title": "Chia số có năm chữ số cho số có một chữ số",
+      "description": "Chia số có năm chữ số cho số có một chữ số.",
+      "topic": "Chủ đề 14: Nhân, chia trong phạm vi 100 000",
+      "unlockAfter": "bai-70"
+    },
+    {
+      "id": "bai-72",
+      "number": 72,
+      "title": "Luyện tập chung",
+      "description": "Luyện tập chung.",
+      "topic": "Chủ đề 14: Nhân, chia trong phạm vi 100 000",
+      "unlockAfter": "bai-71"
+    },
+    {
+      "id": "bai-73",
+      "number": 73,
+      "title": "Thu thập, phân loại, ghi chép số liệu. Bảng số liệu",
+      "description": "Thu thập, phân loại, ghi chép số liệu. Bảng số liệu.",
+      "topic": "Chủ đề 15: Làm quen với yếu tố thống kê, xác suất",
+      "unlockAfter": "bai-72"
+    },
+    {
+      "id": "bai-74",
+      "number": 74,
+      "title": "Khả năng xảy ra của một sự kiện",
+      "description": "Khả năng xảy ra của một sự kiện.",
+      "topic": "Chủ đề 15: Làm quen với yếu tố thống kê, xác suất",
+      "unlockAfter": "bai-73"
+    },
+    {
+      "id": "bai-75",
+      "number": 75,
+      "title": "Thực hành và trải nghiệm thu thập, phân loại, ghi chép số liệu, đọc bảng số liệu",
+      "description": "Thực hành và trải nghiệm thu thập, phân loại, ghi chép số liệu, đọc bảng số liệu.",
+      "topic": "Chủ đề 15: Làm quen với yếu tố thống kê, xác suất",
+      "unlockAfter": "bai-74"
+    },
+    {
+      "id": "bai-76",
+      "number": 76,
+      "title": "Ôn tập các số trong phạm vi 10 000, 100 000",
+      "description": "Ôn tập các số trong phạm vi 10 000, 100 000.",
+      "topic": "Chủ đề 16: Ôn tập cuối năm",
+      "unlockAfter": "bai-75"
+    },
+    {
+      "id": "bai-77",
+      "number": 77,
+      "title": "Ôn tập phép cộng, phép trừ trong phạm vi 100 000",
+      "description": "Ôn tập phép cộng, phép trừ trong phạm vi 100 000.",
+      "topic": "Chủ đề 16: Ôn tập cuối năm",
+      "unlockAfter": "bai-76"
+    },
+    {
+      "id": "bai-78",
+      "number": 78,
+      "title": "Ôn tập phép nhân, phép chia trong phạm vi 100 000",
+      "description": "Ôn tập phép nhân, phép chia trong phạm vi 100 000.",
+      "topic": "Chủ đề 16: Ôn tập cuối năm",
+      "unlockAfter": "bai-77"
+    },
+    {
+      "id": "bai-79",
+      "number": 79,
+      "title": "Ôn tập hình học và đo lường",
+      "description": "Ôn tập hình học và đo lường.",
+      "topic": "Chủ đề 16: Ôn tập cuối năm",
+      "unlockAfter": "bai-78"
+    },
+    {
+      "id": "bai-80",
+      "number": 80,
+      "title": "Ôn tập bảng số liệu, khả năng xảy ra của một sự kiện",
+      "description": "Ôn tập bảng số liệu, khả năng xảy ra của một sự kiện.",
+      "topic": "Chủ đề 16: Ôn tập cuối năm",
+      "unlockAfter": "bai-79"
+    },
+    {
+      "id": "bai-81",
+      "number": 81,
+      "title": "Ôn tập chung",
+      "description": "Ôn tập chung.",
+      "topic": "Chủ đề 16: Ôn tập cuối năm",
+      "unlockAfter": "bai-80"
+    }
+  ],
+  "questionSets": {
+    "phieu-bai-9-10": {
+      "lessonId": "bai-10",
+      "title": "Phiếu bài tập: Bảng nhân 6 & Bảng chia 6",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "compare-1",
+          "type": "compare",
+          "prompt": "6 × 4 ? 6 × 3 + 6",
+          "correctAnswer": "=",
+          "points": 5
+        },
+        {
+          "id": "compare-2",
+          "type": "compare",
+          "prompt": "30 : 6 ? 42 : 6",
+          "correctAnswer": "<",
+          "points": 5
+        },
+        {
+          "id": "compare-3",
+          "type": "compare",
+          "prompt": "6 × 8 ? 50",
+          "correctAnswer": "<",
+          "points": 5
+        },
+        {
+          "id": "input-1",
+          "type": "input",
+          "prompt": "54 : 6 = ?",
+          "correctAnswer": "9",
+          "points": 5
+        },
+        {
+          "id": "input-2",
+          "type": "input",
+          "prompt": "6 × 7 = ?",
+          "correctAnswer": "42",
+          "points": 5
+        },
+        {
+          "id": "input-3",
+          "type": "input",
+          "prompt": "36 : 6 = ?",
+          "correctAnswer": "6",
+          "points": 5
+        },
+        {
+          "id": "paint-1",
+          "type": "paint",
+          "prompt": "6 × 2",
+          "correctAnswer": "green",
+          "points": 3
+        },
+        {
+          "id": "paint-2",
+          "type": "paint",
+          "prompt": "6 × 3",
+          "correctAnswer": "yellow",
+          "points": 3
+        },
+        {
+          "id": "paint-3",
+          "type": "paint",
+          "prompt": "24 : 2",
+          "correctAnswer": "green",
+          "points": 2
+        },
+        {
+          "id": "paint-4",
+          "type": "paint",
+          "prompt": "54 : 3",
+          "correctAnswer": "yellow",
+          "points": 2
+        }
+      ]
+    },
+    "bai-15-kiem-tra": {
+      "lessonId": "bai-15",
+      "title": "Bài 15: Kiểm tra định kỳ tháng 10",
+      "kind": "exam",
+      "durationMinutes": 35,
+      "questions": [
+        {
+          "id": "exam-1",
+          "type": "multiple-choice",
+          "prompt": "6 × 7 bằng bao nhiêu?",
+          "options": [
+            "36",
+            "42",
+            "48",
+            "40"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-2",
+          "type": "multiple-choice",
+          "prompt": "54 : 6 bằng bao nhiêu?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "correctAnswer": "C",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-3",
+          "type": "multiple-choice",
+          "prompt": "7 × 8 bằng bao nhiêu?",
+          "options": [
+            "54",
+            "56",
+            "64",
+            "49"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-4",
+          "type": "multiple-choice",
+          "prompt": "63 : 7 bằng bao nhiêu?",
+          "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "correctAnswer": "C",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-5",
+          "type": "multiple-choice",
+          "prompt": "8 × 6 bằng bao nhiêu?",
+          "options": [
+            "40",
+            "42",
+            "48",
+            "56"
+          ],
+          "correctAnswer": "C",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-6",
+          "type": "multiple-choice",
+          "prompt": "72 : 8 bằng bao nhiêu?",
+          "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+          ],
+          "correctAnswer": "A",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-7",
+          "type": "multiple-choice",
+          "prompt": "9 × 4 bằng bao nhiêu?",
+          "options": [
+            "32",
+            "27",
+            "36",
+            "45"
+          ],
+          "correctAnswer": "C",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-8",
+          "type": "multiple-choice",
+          "prompt": "81 : 9 bằng bao nhiêu?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "6"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-9",
+          "type": "multiple-choice",
+          "prompt": "Mỗi hộp có 6 chiếc bút, 8 hộp có bao nhiêu chiếc bút?",
+          "options": [
+            "42 bút",
+            "14 bút",
+            "48 bút",
+            "36 bút"
+          ],
+          "correctAnswer": "C",
+          "points": 5,
+          "category": "Toán có lời văn"
+        },
+        {
+          "id": "exam-10",
+          "type": "multiple-choice",
+          "prompt": "Chia đều 36 chiếc kẹo cho 6 bạn. Mỗi bạn được bao nhiêu chiếc kẹo?",
+          "options": [
+            "5 chiếc",
+            "6 chiếc",
+            "7 chiếc",
+            "9 chiếc"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Toán có lời văn"
+        },
+        {
+          "id": "exam-11",
+          "type": "multiple-choice",
+          "prompt": "6 × 9 bằng bao nhiêu?",
+          "options": [
+            "52",
+            "56",
+            "54",
+            "63"
+          ],
+          "correctAnswer": "C",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-12",
+          "type": "multiple-choice",
+          "prompt": "48 : 6 bằng bao nhiêu?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": "C",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-13",
+          "type": "multiple-choice",
+          "prompt": "7 × 7 bằng bao nhiêu?",
+          "options": [
+            "49",
+            "42",
+            "56",
+            "47"
+          ],
+          "correctAnswer": "A",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-14",
+          "type": "multiple-choice",
+          "prompt": "Một tuần có 7 ngày. 6 tuần có bao nhiêu ngày?",
+          "options": [
+            "36 ngày",
+            "42 ngày",
+            "49 ngày",
+            "30 ngày"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Toán có lời văn"
+        },
+        {
+          "id": "exam-15",
+          "type": "multiple-choice",
+          "prompt": "Cô giáo chia đều 48 quyển vở cho 6 tổ học sinh giỏi. Hỏi mỗi tổ nhận được bao nhiêu quyển vở và nếu có thêm 12 quyển nữa chia đều cho các tổ thì mỗi tổ được mấy quyển?",
+          "options": [
+            "Mỗi tổ 7 quyển vở, thêm 12 quyển thì được 9 quyển",
+            "Mỗi tổ 8 quyển vở, thêm 12 quyển thì được 10 quyển",
+            "Mỗi tổ 8 quyển vở, thêm 12 quyển thì được 9 quyển",
+            "Mỗi tổ 6 quyển vở, thêm 12 quyển thì được 8 quyển"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Giải toán có lời văn"
+        },
+        {
+          "id": "exam-16",
+          "type": "multiple-choice",
+          "prompt": "8 × 8 bằng bao nhiêu?",
+          "options": [
+            "64",
+            "56",
+            "72",
+            "48"
+          ],
+          "correctAnswer": "A",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-17",
+          "type": "multiple-choice",
+          "prompt": "64 : 8 bằng bao nhiêu?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-18",
+          "type": "multiple-choice",
+          "prompt": "9 × 9 bằng bao nhiêu?",
+          "options": [
+            "72",
+            "81",
+            "99",
+            "18"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Tính nhẩm"
+        },
+        {
+          "id": "exam-19",
+          "type": "multiple-choice",
+          "prompt": "Có 45 bông hoa cắm đều vào 9 lọ. Mỗi lọ có bao nhiêu bông hoa?",
+          "options": [
+            "4 bông",
+            "6 bông",
+            "5 bông",
+            "9 bông"
+          ],
+          "correctAnswer": "C",
+          "points": 5,
+          "category": "Toán có lời văn"
+        },
+        {
+          "id": "exam-20",
+          "type": "multiple-choice",
+          "prompt": "Tìm số thích hợp: ? × 6 = 42",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": "B",
+          "points": 5,
+          "category": "Tìm thành phần chưa biết"
+        }
+      ]
+    },
+    "bai-13-on-tap": {
+      "lessonId": "bai-13",
+      "title": "Phiếu ôn tập: Tìm thành phần trong phép nhân, phép chia",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-13-q1",
+          "type": "input",
+          "prompt": "Tìm số còn thiếu: 8 × ? = 16.",
+          "correctAnswer": "2",
+          "points": 5
+        },
+        {
+          "id": "bai-13-q2",
+          "type": "input",
+          "prompt": "Tìm số còn thiếu: ? : 8 = 3.",
+          "correctAnswer": "24",
+          "points": 5
+        },
+        {
+          "id": "bai-13-q3",
+          "type": "input",
+          "prompt": "Tìm số còn thiếu: 16 : ? = 2.",
+          "correctAnswer": "8",
+          "points": 5
+        },
+        {
+          "id": "bai-13-q4",
+          "type": "input",
+          "prompt": "Tìm số còn thiếu: ? × 9 = 27.",
+          "correctAnswer": "3",
+          "points": 5
+        },
+        {
+          "id": "bai-13-q5",
+          "type": "input",
+          "prompt": "Tìm số còn thiếu: 8 × ? = 48.",
+          "correctAnswer": "6",
+          "points": 5
+        },
+        {
+          "id": "bai-13-q6",
+          "type": "input",
+          "prompt": "Tìm số còn thiếu: ? : 8 = 7.",
+          "correctAnswer": "56",
+          "points": 5
+        },
+        {
+          "id": "bai-13-q7",
+          "type": "input",
+          "prompt": "Tìm số còn thiếu: 48 : ? = 6.",
+          "correctAnswer": "8",
+          "points": 5
+        },
+        {
+          "id": "bai-13-q8",
+          "type": "input",
+          "prompt": "Tìm số còn thiếu: ? × 9 = 63.",
+          "correctAnswer": "7",
+          "points": 5
+        }
+      ]
+    },
+    "bai-14-on-tap": {
+      "lessonId": "bai-14",
+      "title": "Phiếu ôn tập: Một phần mấy",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-14-q1",
+          "type": "input",
+          "prompt": "Một phần 5 của 10 chiếc kẹo là bao nhiêu chiếc kẹo?",
+          "correctAnswer": "2",
+          "points": 5
+        },
+        {
+          "id": "bai-14-q2",
+          "type": "input",
+          "prompt": "Một phần 4 của 12 chiếc kẹo là bao nhiêu chiếc kẹo?",
+          "correctAnswer": "3",
+          "points": 5
+        },
+        {
+          "id": "bai-14-q3",
+          "type": "input",
+          "prompt": "Một phần 2 của 4 chiếc kẹo là bao nhiêu chiếc kẹo?",
+          "correctAnswer": "2",
+          "points": 5
+        },
+        {
+          "id": "bai-14-q4",
+          "type": "input",
+          "prompt": "Một phần 2 của 6 chiếc kẹo là bao nhiêu chiếc kẹo?",
+          "correctAnswer": "3",
+          "points": 5
+        },
+        {
+          "id": "bai-14-q5",
+          "type": "input",
+          "prompt": "Một phần 9 của 54 chiếc kẹo là bao nhiêu chiếc kẹo?",
+          "correctAnswer": "6",
+          "points": 5
+        },
+        {
+          "id": "bai-14-q6",
+          "type": "input",
+          "prompt": "Một phần 8 của 56 chiếc kẹo là bao nhiêu chiếc kẹo?",
+          "correctAnswer": "7",
+          "points": 5
+        },
+        {
+          "id": "bai-14-q7",
+          "type": "input",
+          "prompt": "Một phần 6 của 36 chiếc kẹo là bao nhiêu chiếc kẹo?",
+          "correctAnswer": "6",
+          "points": 5
+        },
+        {
+          "id": "bai-14-q8",
+          "type": "input",
+          "prompt": "Một phần 6 của 42 chiếc kẹo là bao nhiêu chiếc kẹo?",
+          "correctAnswer": "7",
+          "points": 5
+        }
+      ]
+    },
+    "bai-16-on-tap": {
+      "lessonId": "bai-16",
+      "title": "Phiếu ôn tập: Điểm ở giữa, trung điểm của đoạn thẳng",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-16-q1",
+          "type": "input",
+          "prompt": "Đoạn AB dài 26 cm, M là trung điểm của AB. AM dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "13",
+          "points": 5
+        },
+        {
+          "id": "bai-16-q2",
+          "type": "input",
+          "prompt": "Trên thước, A ở vạch 9 cm, B ở vạch 19 cm. Trung điểm M của AB ở vạch số mấy?",
+          "correctAnswer": "14",
+          "points": 5
+        },
+        {
+          "id": "bai-16-q3",
+          "type": "input",
+          "prompt": "Đoạn AB dài 30 cm, M là trung điểm của AB. AM dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "15",
+          "points": 5
+        },
+        {
+          "id": "bai-16-q4",
+          "type": "input",
+          "prompt": "Trên thước, A ở vạch 12 cm, B ở vạch 22 cm. Trung điểm M của AB ở vạch số mấy?",
+          "correctAnswer": "17",
+          "points": 5
+        },
+        {
+          "id": "bai-16-q5",
+          "type": "input",
+          "prompt": "A, M, B thẳng hàng và M là trung điểm của AB. AM dài 26 cm. AB dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "52",
+          "points": 5
+        },
+        {
+          "id": "bai-16-q6",
+          "type": "input",
+          "prompt": "Trên thước, A ở vạch 9 cm, B ở vạch 27 cm. Trung điểm M của AB ở vạch số mấy?",
+          "correctAnswer": "18",
+          "points": 5
+        },
+        {
+          "id": "bai-16-q7",
+          "type": "input",
+          "prompt": "A, M, B thẳng hàng và M là trung điểm của AB. AM dài 30 cm. AB dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "60",
+          "points": 5
+        },
+        {
+          "id": "bai-16-q8",
+          "type": "input",
+          "prompt": "Trên thước, A ở vạch 12 cm, B ở vạch 30 cm. Trung điểm M của AB ở vạch số mấy?",
+          "correctAnswer": "21",
+          "points": 5
+        }
+      ]
+    },
+    "bai-17-on-tap": {
+      "lessonId": "bai-17",
+      "title": "Phiếu ôn tập: Hình tròn. Tâm, bán kính, đường kính",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-17-q1",
+          "type": "input",
+          "prompt": "Muốn vẽ đường tròn có đường kính 26 cm, em mở com pa rộng bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "13",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q2",
+          "type": "input",
+          "prompt": "Hình tròn có bán kính 15 cm. Đường kính dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "30",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q3",
+          "type": "input",
+          "prompt": "Muốn vẽ đường tròn có đường kính 30 cm, em mở com pa rộng bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "15",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q4",
+          "type": "input",
+          "prompt": "Hình tròn có bán kính 19 cm. Đường kính dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "38",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q5",
+          "type": "input",
+          "prompt": "Hình tròn có đường kính 30 cm. Bán kính dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "15",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q6",
+          "type": "input",
+          "prompt": "Hình tròn có đường kính 38 cm. Bán kính dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "19",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q7",
+          "type": "input",
+          "prompt": "Muốn vẽ đường tròn có đường kính 52 cm, em mở com pa rộng bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "26",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q8",
+          "type": "input",
+          "prompt": "Hình tròn có bán kính 30 cm. Đường kính dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "60",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q9",
+          "type": "input",
+          "prompt": "Muốn vẽ đường tròn có đường kính 60 cm, em mở com pa rộng bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "30",
+          "points": 5
+        },
+        {
+          "id": "bai-17-q10",
+          "type": "input",
+          "prompt": "Hình tròn có bán kính 38 cm. Đường kính dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "76",
+          "points": 5
+        }
+      ]
+    },
+    "bai-18-on-tap": {
+      "lessonId": "bai-18",
+      "title": "Phiếu ôn tập: Góc, góc vuông, góc không vuông",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-18-q1",
+          "type": "input",
+          "prompt": "Hình tam giác vuông trong hình vẽ có bao nhiêu góc vuông?",
+          "correctAnswer": "1",
+          "points": 5
+        },
+        {
+          "id": "bai-18-q2",
+          "type": "multiple-choice",
+          "prompt": "Em dùng dụng cụ nào để kiểm tra một góc có vuông hay không?",
+          "correctAnswer": "A",
+          "points": 5,
+          "options": [
+            "Ê ke",
+            "Com pa",
+            "Thước dây"
+          ]
+        },
+        {
+          "id": "bai-18-q3",
+          "type": "input",
+          "prompt": "Hình chữ nhật trong hình vẽ có bao nhiêu góc vuông?",
+          "correctAnswer": "4",
+          "points": 5
+        },
+        {
+          "id": "bai-18-q4",
+          "type": "input",
+          "prompt": "Hình ghép có sáu đỉnh trong hình vẽ có bao nhiêu góc vuông?",
+          "correctAnswer": "5",
+          "points": 5
+        }
+      ]
+    },
+    "bai-19-on-tap": {
+      "lessonId": "bai-19",
+      "title": "Phiếu ôn tập: Hình tam giác, tứ giác, chữ nhật, vuông",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-19-q1",
+          "type": "input",
+          "prompt": "Hình chữ nhật ABCD có AB dài 21 cm, BC dài 2 cm. Cạnh CD dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "21",
+          "points": 5
+        },
+        {
+          "id": "bai-19-q2",
+          "type": "input",
+          "prompt": "Hình tam giác trong hình vẽ có bao nhiêu đỉnh?",
+          "correctAnswer": "3",
+          "points": 5
+        },
+        {
+          "id": "bai-19-q3",
+          "type": "input",
+          "prompt": "Hình chữ nhật ABCD có AB dài 23 cm, BC dài 2 cm. Cạnh CD dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "23",
+          "points": 5
+        },
+        {
+          "id": "bai-19-q4",
+          "type": "input",
+          "prompt": "Hình tứ giác trong hình vẽ có bao nhiêu đỉnh?",
+          "correctAnswer": "4",
+          "points": 5
+        },
+        {
+          "id": "bai-19-q5",
+          "type": "input",
+          "prompt": "Hình chữ nhật ABCD có AB dài 52 cm, BC dài 2 cm. Cạnh CD dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "52",
+          "points": 5
+        },
+        {
+          "id": "bai-19-q6",
+          "type": "input",
+          "prompt": "Hình tứ giác trong hình vẽ có bao nhiêu cạnh?",
+          "correctAnswer": "4",
+          "points": 5
+        },
+        {
+          "id": "bai-19-q7",
+          "type": "input",
+          "prompt": "Hình chữ nhật ABCD có AB dài 59 cm, BC dài 2 cm. Cạnh CD dài bao nhiêu xăng-ti-mét?",
+          "correctAnswer": "59",
+          "points": 5
+        }
+      ]
+    },
+    "bai-21-on-tap": {
+      "lessonId": "bai-21",
+      "title": "Phiếu ôn tập: Khối lập phương, khối hộp chữ nhật",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-21-q1",
+          "type": "input",
+          "prompt": "Một khối lập phương có bao nhiêu mặt?",
+          "correctAnswer": "6",
+          "points": 5
+        },
+        {
+          "id": "bai-21-q2",
+          "type": "input",
+          "prompt": "Xếp các khối lập phương nhỏ thành 1 lớp đều nhau; mỗi lớp có 1 hàng, mỗi hàng 3 khối. Có tất cả bao nhiêu khối nhỏ?",
+          "correctAnswer": "3",
+          "points": 5
+        },
+        {
+          "id": "bai-21-q3",
+          "type": "input",
+          "prompt": "Một khối lập phương có bao nhiêu đỉnh?",
+          "correctAnswer": "8",
+          "points": 5
+        },
+        {
+          "id": "bai-21-q4",
+          "type": "input",
+          "prompt": "Một khối lập phương có bao nhiêu cạnh?",
+          "correctAnswer": "12",
+          "points": 5
+        },
+        {
+          "id": "bai-21-q5",
+          "type": "input",
+          "prompt": "Xếp các khối lập phương nhỏ thành 2 lớp đều nhau; mỗi lớp có 1 hàng, mỗi hàng 3 khối. Có tất cả bao nhiêu khối nhỏ?",
+          "correctAnswer": "6",
+          "points": 5
+        }
+      ]
+    },
+    "bai-28-on-tap": {
+      "lessonId": "bai-28",
+      "title": "Phiếu ôn tập: Bài toán giải bằng hai bước tính",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-28-q1",
+          "type": "input",
+          "prompt": "Lớp có 55 quyển truyện, được tặng 2 hộp, mỗi hộp 5 quyển. Có tất cả bao nhiêu quyển?",
+          "correctAnswer": "65",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q2",
+          "type": "input",
+          "prompt": "Lớp có 62 quyển truyện, được tặng 4 hộp, mỗi hộp 3 quyển. Có tất cả bao nhiêu quyển?",
+          "correctAnswer": "74",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q3",
+          "type": "input",
+          "prompt": "Lớp có 61 quyển truyện, được tặng 2 hộp, mỗi hộp 5 quyển. Có tất cả bao nhiêu quyển?",
+          "correctAnswer": "71",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q4",
+          "type": "input",
+          "prompt": "Lớp có 75 quyển truyện, được tặng 4 hộp, mỗi hộp 3 quyển. Có tất cả bao nhiêu quyển?",
+          "correctAnswer": "87",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q5",
+          "type": "input",
+          "prompt": "Thư viện Hoàng Mai có 55 quyển truyện. Nhận 2 hộp, mỗi hộp 5 quyển, rồi cho mượn 2 quyển. Còn bao nhiêu quyển?",
+          "correctAnswer": "63",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q6",
+          "type": "input",
+          "prompt": "Thư viện Hoàng Mai có 62 quyển truyện. Nhận 4 hộp, mỗi hộp 3 quyển, rồi cho mượn 4 quyển. Còn bao nhiêu quyển?",
+          "correctAnswer": "70",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q7",
+          "type": "input",
+          "prompt": "Thư viện Hoàng Mai có 61 quyển truyện. Nhận 2 hộp, mỗi hộp 5 quyển, rồi cho mượn 2 quyển. Còn bao nhiêu quyển?",
+          "correctAnswer": "69",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q8",
+          "type": "input",
+          "prompt": "Thư viện Hoàng Mai có 75 quyển truyện. Nhận 4 hộp, mỗi hộp 3 quyển, rồi cho mượn 4 quyển. Còn bao nhiêu quyển?",
+          "correctAnswer": "83",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q9",
+          "type": "input",
+          "prompt": "2 túi như nhau có 110 viên bi. Một túi có bao nhiêu viên?",
+          "correctAnswer": "55",
+          "points": 5
+        },
+        {
+          "id": "bai-28-q10",
+          "type": "input",
+          "prompt": "4 túi như nhau có 248 viên bi. Một túi có bao nhiêu viên?",
+          "correctAnswer": "62",
+          "points": 5
+        }
+      ]
+    },
+    "bai-30-on-tap": {
+      "lessonId": "bai-30",
+      "title": "Phiếu ôn tập: Mi-li-mét",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-30-q1",
+          "type": "input",
+          "prompt": "Đổi 2 cm = … mm.",
+          "correctAnswer": "20",
+          "points": 5
+        },
+        {
+          "id": "bai-30-q2",
+          "type": "input",
+          "prompt": "Đổi 4 cm = … mm.",
+          "correctAnswer": "40",
+          "points": 5
+        },
+        {
+          "id": "bai-30-q3",
+          "type": "input",
+          "prompt": "Đổi 2 cm 5 mm = … mm.",
+          "correctAnswer": "25",
+          "points": 5
+        },
+        {
+          "id": "bai-30-q4",
+          "type": "input",
+          "prompt": "Đổi 4 cm 3 mm = … mm.",
+          "correctAnswer": "43",
+          "points": 5
+        },
+        {
+          "id": "bai-30-q5",
+          "type": "input",
+          "prompt": "Lớp Hoàng Mai có 2 cm dây trang trí. Nhận thêm 5 mm. Tổng cộng có bao nhiêu mm?",
+          "correctAnswer": "25",
+          "points": 5
+        },
+        {
+          "id": "bai-30-q6",
+          "type": "input",
+          "prompt": "Lớp Hoàng Mai có 4 cm dây trang trí. Nhận thêm 3 mm. Tổng cộng có bao nhiêu mm?",
+          "correctAnswer": "43",
+          "points": 5
+        }
+      ]
+    },
+    "bai-31-on-tap": {
+      "lessonId": "bai-31",
+      "title": "Phiếu ôn tập: Gam",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-31-q1",
+          "type": "input",
+          "prompt": "Đổi 2 kg = … g.",
+          "correctAnswer": "2000",
+          "points": 5
+        },
+        {
+          "id": "bai-31-q2",
+          "type": "input",
+          "prompt": "Đổi 4 kg = … g.",
+          "correctAnswer": "4000",
+          "points": 5
+        },
+        {
+          "id": "bai-31-q3",
+          "type": "input",
+          "prompt": "Đổi 2 kg 5 g = … g.",
+          "correctAnswer": "2005",
+          "points": 5
+        },
+        {
+          "id": "bai-31-q4",
+          "type": "input",
+          "prompt": "Đổi 4 kg 3 g = … g.",
+          "correctAnswer": "4003",
+          "points": 5
+        },
+        {
+          "id": "bai-31-q5",
+          "type": "input",
+          "prompt": "Lớp Hoàng Mai có 2 kg gạo. Nhận thêm 5 g. Tổng cộng có bao nhiêu g?",
+          "correctAnswer": "2005",
+          "points": 5
+        },
+        {
+          "id": "bai-31-q6",
+          "type": "input",
+          "prompt": "Lớp Hoàng Mai có 4 kg gạo. Nhận thêm 3 g. Tổng cộng có bao nhiêu g?",
+          "correctAnswer": "4003",
+          "points": 5
+        }
+      ]
+    },
+    "bai-32-on-tap": {
+      "lessonId": "bai-32",
+      "title": "Phiếu ôn tập: Mi-li-lít",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-32-q1",
+          "type": "input",
+          "prompt": "Đổi 2 l = … ml.",
+          "correctAnswer": "2000",
+          "points": 5
+        },
+        {
+          "id": "bai-32-q2",
+          "type": "input",
+          "prompt": "Đổi 4 l = … ml.",
+          "correctAnswer": "4000",
+          "points": 5
+        },
+        {
+          "id": "bai-32-q3",
+          "type": "input",
+          "prompt": "Đổi 2 l 5 ml = … ml.",
+          "correctAnswer": "2005",
+          "points": 5
+        },
+        {
+          "id": "bai-32-q4",
+          "type": "input",
+          "prompt": "Đổi 4 l 3 ml = … ml.",
+          "correctAnswer": "4003",
+          "points": 5
+        },
+        {
+          "id": "bai-32-q5",
+          "type": "input",
+          "prompt": "Lớp Hoàng Mai có 2 l nước. Nhận thêm 5 ml. Tổng cộng có bao nhiêu ml?",
+          "correctAnswer": "2005",
+          "points": 5
+        },
+        {
+          "id": "bai-32-q6",
+          "type": "input",
+          "prompt": "Lớp Hoàng Mai có 4 l nước. Nhận thêm 3 ml. Tổng cộng có bao nhiêu ml?",
+          "correctAnswer": "4003",
+          "points": 5
+        }
+      ]
+    },
+    "bai-36-on-tap": {
+      "lessonId": "bai-36",
+      "title": "Phiếu ôn tập: Nhân số có ba chữ số với số có một chữ số",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-36-q1",
+          "type": "input",
+          "prompt": "Tính 555 × 2.",
+          "correctAnswer": "1110",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q2",
+          "type": "input",
+          "prompt": "Tính 623 × 4.",
+          "correctAnswer": "2492",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q3",
+          "type": "input",
+          "prompt": "Tính 615 × 2.",
+          "correctAnswer": "1230",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q4",
+          "type": "input",
+          "prompt": "Tính 753 × 4.",
+          "correctAnswer": "3012",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q5",
+          "type": "input",
+          "prompt": "Mỗi thùng có 555 quyển vở. 2 thùng có bao nhiêu quyển?",
+          "correctAnswer": "1110",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q6",
+          "type": "input",
+          "prompt": "Mỗi thùng có 623 quyển vở. 4 thùng có bao nhiêu quyển?",
+          "correctAnswer": "2492",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q7",
+          "type": "input",
+          "prompt": "Mỗi thùng có 615 quyển vở. 2 thùng có bao nhiêu quyển?",
+          "correctAnswer": "1230",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q8",
+          "type": "input",
+          "prompt": "Mỗi thùng có 753 quyển vở. 4 thùng có bao nhiêu quyển?",
+          "correctAnswer": "3012",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q9",
+          "type": "input",
+          "prompt": "Chợ gần Hoàng Mai bán 2 thùng vở, mỗi thùng 555 quyển, và 5 quyển lẻ. Đã bán tất cả bao nhiêu quyển?",
+          "correctAnswer": "1115",
+          "points": 5
+        },
+        {
+          "id": "bai-36-q10",
+          "type": "input",
+          "prompt": "Chợ gần Hoàng Mai bán 4 thùng vở, mỗi thùng 623 quyển, và 3 quyển lẻ. Đã bán tất cả bao nhiêu quyển?",
+          "correctAnswer": "2495",
+          "points": 5
+        }
+      ]
+    },
+    "bai-50-on-tap": {
+      "lessonId": "bai-50",
+      "title": "Phiếu ôn tập: Chu vi hình tam giác, tứ giác, chữ nhật, vuông",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-50-q1",
+          "type": "input",
+          "prompt": "Một hình chữ nhật có chiều dài 7 cm, chiều rộng 2 cm. Tính chu vi (cm).",
+          "correctAnswer": "18",
+          "points": 5
+        },
+        {
+          "id": "bai-50-q2",
+          "type": "input",
+          "prompt": "Một hình chữ nhật có chiều dài 7 cm, chiều rộng 4 cm. Tính chu vi (cm).",
+          "correctAnswer": "22",
+          "points": 5
+        },
+        {
+          "id": "bai-50-q3",
+          "type": "input",
+          "prompt": "Tấm bìa hình chữ nhật của lớp Hoàng Mai có chiều dài 7 cm, chiều rộng 2 cm. Chiều dài được tăng thêm hai cm, chiều rộng giữ nguyên. Tính chu vi mới (cm).",
+          "correctAnswer": "22",
+          "points": 5
+        },
+        {
+          "id": "bai-50-q4",
+          "type": "input",
+          "prompt": "Tấm bìa hình chữ nhật của lớp Hoàng Mai có chiều dài 7 cm, chiều rộng 4 cm. Chiều dài được tăng thêm hai cm, chiều rộng giữ nguyên. Tính chu vi mới (cm).",
+          "correctAnswer": "26",
+          "points": 5
+        },
+        {
+          "id": "bai-50-q5",
+          "type": "input",
+          "prompt": "Một hình vuông có cạnh 2 cm. Tính chu vi (cm).",
+          "correctAnswer": "8",
+          "points": 5
+        },
+        {
+          "id": "bai-50-q6",
+          "type": "input",
+          "prompt": "Một hình vuông có cạnh 4 cm. Tính chu vi (cm).",
+          "correctAnswer": "16",
+          "points": 5
+        },
+        {
+          "id": "bai-50-q7",
+          "type": "input",
+          "prompt": "Tấm bìa hình vuông của lớp Hoàng Mai có cạnh 2 cm. Cạnh được tăng thêm hai cm. Tính chu vi mới (cm).",
+          "correctAnswer": "16",
+          "points": 5
+        },
+        {
+          "id": "bai-50-q8",
+          "type": "input",
+          "prompt": "Tấm bìa hình vuông của lớp Hoàng Mai có cạnh 4 cm. Cạnh được tăng thêm hai cm. Tính chu vi mới (cm).",
+          "correctAnswer": "24",
+          "points": 5
+        }
+      ]
+    },
+    "bai-52-on-tap": {
+      "lessonId": "bai-52",
+      "title": "Phiếu ôn tập: Diện tích hình chữ nhật, hình vuông",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-52-q1",
+          "type": "input",
+          "prompt": "Một hình chữ nhật có chiều dài 7 cm, chiều rộng 2 cm. Tính diện tích (cm²).",
+          "correctAnswer": "14",
+          "points": 5
+        },
+        {
+          "id": "bai-52-q2",
+          "type": "input",
+          "prompt": "Một hình chữ nhật có chiều dài 7 cm, chiều rộng 4 cm. Tính diện tích (cm²).",
+          "correctAnswer": "28",
+          "points": 5
+        },
+        {
+          "id": "bai-52-q3",
+          "type": "input",
+          "prompt": "Tấm bìa hình chữ nhật của lớp Hoàng Mai có chiều dài 7 cm, chiều rộng 2 cm. Chiều dài được tăng thêm hai cm, chiều rộng giữ nguyên. Tính diện tích mới (cm²).",
+          "correctAnswer": "18",
+          "points": 5
+        },
+        {
+          "id": "bai-52-q4",
+          "type": "input",
+          "prompt": "Tấm bìa hình chữ nhật của lớp Hoàng Mai có chiều dài 7 cm, chiều rộng 4 cm. Chiều dài được tăng thêm hai cm, chiều rộng giữ nguyên. Tính diện tích mới (cm²).",
+          "correctAnswer": "36",
+          "points": 5
+        },
+        {
+          "id": "bai-52-q5",
+          "type": "input",
+          "prompt": "Một hình vuông có cạnh 2 cm. Tính diện tích (cm²).",
+          "correctAnswer": "4",
+          "points": 5
+        },
+        {
+          "id": "bai-52-q6",
+          "type": "input",
+          "prompt": "Một hình vuông có cạnh 4 cm. Tính diện tích (cm²).",
+          "correctAnswer": "16",
+          "points": 5
+        },
+        {
+          "id": "bai-52-q7",
+          "type": "input",
+          "prompt": "Tấm bìa hình vuông của lớp Hoàng Mai có cạnh 2 cm. Cạnh được tăng thêm hai cm. Tính diện tích mới (cm²).",
+          "correctAnswer": "16",
+          "points": 5
+        },
+        {
+          "id": "bai-52-q8",
+          "type": "input",
+          "prompt": "Tấm bìa hình vuông của lớp Hoàng Mai có cạnh 4 cm. Cạnh được tăng thêm hai cm. Tính diện tích mới (cm²).",
+          "correctAnswer": "36",
+          "points": 5
+        }
+      ]
+    },
+    "bai-57-on-tap": {
+      "lessonId": "bai-57",
+      "title": "Phiếu ôn tập: Chia số có bốn chữ số cho số có một chữ số",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-57-q1",
+          "type": "input",
+          "prompt": "Tính 1110 : 2.",
+          "correctAnswer": "555",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q2",
+          "type": "input",
+          "prompt": "Tính 2492 : 4.",
+          "correctAnswer": "623",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q3",
+          "type": "input",
+          "prompt": "Tính 1230 : 2.",
+          "correctAnswer": "615",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q4",
+          "type": "input",
+          "prompt": "Tính 3012 : 4.",
+          "correctAnswer": "753",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q5",
+          "type": "input",
+          "prompt": "Chia đều 1110 quyển vở vào 2 hộp. Mỗi hộp có bao nhiêu quyển?",
+          "correctAnswer": "555",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q6",
+          "type": "input",
+          "prompt": "Chia đều 2492 quyển vở vào 4 hộp. Mỗi hộp có bao nhiêu quyển?",
+          "correctAnswer": "623",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q7",
+          "type": "input",
+          "prompt": "Chia đều 1230 quyển vở vào 2 hộp. Mỗi hộp có bao nhiêu quyển?",
+          "correctAnswer": "615",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q8",
+          "type": "input",
+          "prompt": "Chia đều 3012 quyển vở vào 4 hộp. Mỗi hộp có bao nhiêu quyển?",
+          "correctAnswer": "753",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q9",
+          "type": "input",
+          "prompt": "Trường Hoàng Mai chia đều 1110 quyển vở cho 2 lớp. Mỗi lớp tặng lại 5 quyển cho thư viện. Mỗi lớp còn bao nhiêu quyển?",
+          "correctAnswer": "550",
+          "points": 5
+        },
+        {
+          "id": "bai-57-q10",
+          "type": "input",
+          "prompt": "Trường Hoàng Mai chia đều 2492 quyển vở cho 4 lớp. Mỗi lớp tặng lại 3 quyển cho thư viện. Mỗi lớp còn bao nhiêu quyển?",
+          "correctAnswer": "620",
+          "points": 5
+        }
+      ]
+    },
+    "bai-45-on-tap": {
+      "lessonId": "bai-45",
+      "title": "Phiếu ôn tập: Các số có bốn chữ số. Số 10 000",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-45-q1",
+          "type": "input",
+          "prompt": "Viết số: chín nghìn bảy trăm hai mươi mốt.",
+          "correctAnswer": "9721",
+          "points": 5
+        },
+        {
+          "id": "bai-45-q2",
+          "type": "input",
+          "prompt": "Viết số: năm nghìn bảy trăm tám mươi hai.",
+          "correctAnswer": "5782",
+          "points": 5
+        },
+        {
+          "id": "bai-45-q3",
+          "type": "input",
+          "prompt": "Viết số: một nghìn sáu trăm sáu mươi bảy.",
+          "correctAnswer": "1667",
+          "points": 5
+        },
+        {
+          "id": "bai-45-q4",
+          "type": "input",
+          "prompt": "Viết số: một nghìn bảy trăm hai mươi tám.",
+          "correctAnswer": "1728",
+          "points": 5
+        },
+        {
+          "id": "bai-45-q5",
+          "type": "multiple-choice",
+          "prompt": "So sánh 9.721 và 9.817. Viết số lớn hơn.",
+          "correctAnswer": "B",
+          "points": 5,
+          "options": [
+            "9.816",
+            "9.817",
+            "9.818"
+          ]
+        },
+        {
+          "id": "bai-45-q6",
+          "type": "multiple-choice",
+          "prompt": "So sánh 5.782 và 5.869. Viết số lớn hơn.",
+          "correctAnswer": "A",
+          "points": 5,
+          "options": [
+            "5.869",
+            "5.870",
+            "5.868"
+          ]
+        },
+        {
+          "id": "bai-45-q7",
+          "type": "multiple-choice",
+          "prompt": "So sánh 1.667 và 1.743. Viết số lớn hơn.",
+          "correctAnswer": "A",
+          "points": 5,
+          "options": [
+            "1.743",
+            "1.744",
+            "1.742"
+          ]
+        },
+        {
+          "id": "bai-45-q8",
+          "type": "multiple-choice",
+          "prompt": "So sánh 1.728 và 1.752. Viết số lớn hơn.",
+          "correctAnswer": "A",
+          "points": 5,
+          "options": [
+            "1.752",
+            "1.753",
+            "1.751"
+          ]
+        },
+        {
+          "id": "bai-45-q9",
+          "type": "input",
+          "prompt": "Thư viện Hoàng Mai có 9.721 quyển sách, thư viện bạn có 9.817 quyển. Sau khi Hoàng Mai nhận thêm 106 quyển, thư viện nào có nhiều sách hơn? Viết số sách của thư viện nhiều hơn.",
+          "correctAnswer": "9827",
+          "points": 5
+        },
+        {
+          "id": "bai-45-q10",
+          "type": "input",
+          "prompt": "Thư viện Hoàng Mai có 5.782 quyển sách, thư viện bạn có 5.869 quyển. Sau khi Hoàng Mai nhận thêm 97 quyển, thư viện nào có nhiều sách hơn? Viết số sách của thư viện nhiều hơn.",
+          "correctAnswer": "5879",
+          "points": 5
+        }
+      ]
+    },
+    "bai-59-on-tap": {
+      "lessonId": "bai-59",
+      "title": "Phiếu ôn tập: Các số có năm chữ số. Số 100 000",
+      "kind": "exercise",
+      "questions": [
+        {
+          "id": "bai-59-q1",
+          "type": "input",
+          "prompt": "Viết số: chín mươi tám nghìn không trăm mười sáu.",
+          "correctAnswer": "98016",
+          "points": 5
+        },
+        {
+          "id": "bai-59-q2",
+          "type": "input",
+          "prompt": "Viết số: năm mươi bốn nghìn một trăm chín mươi tám.",
+          "correctAnswer": "54198",
+          "points": 5
+        },
+        {
+          "id": "bai-59-q3",
+          "type": "input",
+          "prompt": "Viết số: tám nghìn bốn trăm mười.",
+          "correctAnswer": "8410",
+          "points": 5
+        },
+        {
+          "id": "bai-59-q4",
+          "type": "input",
+          "prompt": "Viết số: chín nghìn không trăm chín mươi bốn.",
+          "correctAnswer": "9094",
+          "points": 5
+        },
+        {
+          "id": "bai-59-q5",
+          "type": "multiple-choice",
+          "prompt": "So sánh 98.016 và 98.112. Viết số lớn hơn.",
+          "correctAnswer": "B",
+          "points": 5,
+          "options": [
+            "98.111",
+            "98.112",
+            "98.113"
+          ]
+        },
+        {
+          "id": "bai-59-q6",
+          "type": "multiple-choice",
+          "prompt": "So sánh 54.198 và 54.285. Viết số lớn hơn.",
+          "correctAnswer": "A",
+          "points": 5,
+          "options": [
+            "54.285",
+            "54.286",
+            "54.284"
+          ]
+        },
+        {
+          "id": "bai-59-q7",
+          "type": "multiple-choice",
+          "prompt": "So sánh 8.410 và 8.486. Viết số lớn hơn.",
+          "correctAnswer": "A",
+          "points": 5,
+          "options": [
+            "8.486",
+            "8.487",
+            "8.485"
+          ]
+        },
+        {
+          "id": "bai-59-q8",
+          "type": "multiple-choice",
+          "prompt": "So sánh 9.094 và 9.118. Viết số lớn hơn.",
+          "correctAnswer": "A",
+          "points": 5,
+          "options": [
+            "9.118",
+            "9.119",
+            "9.117"
+          ]
+        },
+        {
+          "id": "bai-59-q9",
+          "type": "input",
+          "prompt": "Thư viện Hoàng Mai có 98.016 quyển sách, thư viện bạn có 98.112 quyển. Sau khi Hoàng Mai nhận thêm 106 quyển, thư viện nào có nhiều sách hơn? Viết số sách của thư viện nhiều hơn.",
+          "correctAnswer": "98122",
+          "points": 5
+        },
+        {
+          "id": "bai-59-q10",
+          "type": "input",
+          "prompt": "Thư viện Hoàng Mai có 54.198 quyển sách, thư viện bạn có 54.285 quyển. Sau khi Hoàng Mai nhận thêm 97 quyển, thư viện nào có nhiều sách hơn? Viết số sách của thư viện nhiều hơn.",
+          "correctAnswer": "54295",
+          "points": 5
+        }
+      ]
+    }
+  }
+}

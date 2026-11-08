@@ -1,0 +1,231 @@
+/* CSS nền dùng chung cho mọi trang (trước đây lặp lại trong từng file HTML) */
+@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+/* --- Bổ sung nhỏ khi nối backend (không đổi phong cách gốc) --- */
+html { scroll-behavior: smooth; }
+button:disabled { cursor: not-allowed; opacity: .75; }
+
+/* --- Thanh điều hướng dọc (Sidebar Rail) chuẩn trang gốc Vườn Toán 3 --- */
+#app-sidebar {
+  position: fixed !important;
+  left: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  z-index: 50 !important;
+  width: 72px !important;
+  background-color: #ffffff !important;
+  border-right: 1px solid #e1e3e1 !important;
+  box-shadow: 2px 0 16px rgba(0, 97, 39, 0.06) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 16px 8px !important;
+  box-sizing: border-box !important;
+}
+
+#app-mobile-nav {
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  height: 60px !important;
+  z-index: 50 !important;
+  background-color: #ffffff !important;
+  border-top: 1px solid #e1e3e1 !important;
+  display: none !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05) !important;
+}
+
+@media (min-width: 768px) {
+  #app-sidebar {
+    display: flex !important;
+  }
+  #app-mobile-nav {
+    display: none !important;
+  }
+  body.has-sidebar main {
+    padding-left: 72px !important;
+    padding-top: 1rem !important;
+  }
+  body.has-sidebar footer {
+    padding-left: 72px !important;
+  }
+  /* Ẩn header ngang trên Desktop khi đã có Sidebar dọc chuẩn gốc */
+  body.has-sidebar > header {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #app-sidebar {
+    display: none !important;
+  }
+  #app-mobile-nav {
+    display: flex !important;
+  }
+  body.has-sidebar main {
+    padding-bottom: 68px !important;
+  }
+}
+
+/* --- MỤC LỤC SGK TOÁN 3 (BẢN ĐỒ ZÍC ZẮC & DANH SÁCH) --- */
+.curriculum-wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.curriculum-path {
+  display: grid;
+  gap: 2rem;
+  padding-block: 1.5rem;
+  position: relative;
+}
+
+.curriculum-station {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  scroll-margin-block: 8rem;
+  min-width: 0;
+}
+
+/* Đường nối đứt đoạn mặc định trên Mobile (dọc thẳng đứng từ tâm trạm xuống) */
+.curriculum-station:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 2rem;
+  top: 4rem;
+  bottom: -2rem;
+  border-left: 4px dashed #5eead4;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .curriculum-path {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 3.5rem;
+    row-gap: 2.25rem;
+  }
+  .curriculum-station {
+    grid-row: var(--station-row);
+  }
+  .curriculum-station:nth-child(4n + 3) {
+    grid-column: 2;
+  }
+  .curriculum-station:nth-child(4n + 4) {
+    grid-column: 1;
+  }
+  /* Đường nối ngang sang phải từ lẻ sang chẵn (1 -> 2, 5 -> 6, 9 -> 10, ...) */
+  .curriculum-station:nth-child(4n + 1):not(:last-child)::after {
+    left: 2rem;
+    top: 2rem;
+    width: calc(100% + 3.5rem);
+    bottom: auto;
+    border-left: 0;
+    border-top: 4px dashed #5eead4;
+  }
+  /* Đường nối ngang sang trái từ chẵn sang lẻ (3 -> 4, 7 -> 8, 11 -> 12, ...) */
+  .curriculum-station:nth-child(4n + 3):not(:last-child)::after {
+    left: auto;
+    right: calc(100% - 2rem);
+    top: 2rem;
+    width: calc(100% + 3.5rem);
+    bottom: auto;
+    border-left: 0;
+    border-top: 4px dashed #5eead4;
+  }
+}
+
+/* Nút trạm tròn số bài */
+.curriculum-circle-btn {
+  position: relative;
+  z-index: 10;
+  width: 4rem;
+  height: 4rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: 4px solid #16a34a;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #16a34a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.curriculum-circle-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 16px rgba(22, 163, 74, 0.2);
+}
+.curriculum-circle-btn.locked {
+  border-color: #86efac;
+  color: #15803d;
+}
+
+/* Thẻ trạm bài học */
+.curriculum-card {
+  position: relative;
+  z-index: 10;
+  min-width: 0;
+  flex: 1;
+  border-radius: 1.25rem;
+  background-color: #ffffff;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.curriculum-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Phối màu 2 chủ đề xen kẽ chuẩn hình mẫu */
+.curriculum-topic-teal {
+  background-color: #f0fdf4 !important;
+  border: 2px solid #bbf7d0 !important;
+  color: #14532d !important;
+}
+.curriculum-topic-amber {
+  background-color: #fffbeb !important;
+  border: 2px solid #fde68a !important;
+  color: #78350f !important;
+}
+
+/* Nút chuyển chế độ xem Bản đồ / Danh sách */
+.view-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+.view-pill-btn.active {
+  background-color: #ffffff;
+  border-color: #166534;
+  color: #166534;
+  box-shadow: 0 2px 8px rgba(22, 101, 52, 0.15);
+}
+.view-pill-btn:not(.active) {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: #e2e8f0;
+  color: #475569;
+}
+.view-pill-btn:not(.active):hover {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+

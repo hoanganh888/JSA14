@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Game Đua Xe — Vườn Toán Lớp 3</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/tailwind.build.css" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="assets/js/tailwind.config.js"></script>
+<link href="assets/css/app.css" rel="stylesheet"/>
+<body class="bg-background font-body-md text-on-surface antialiased min-h-screen" data-page="game2">
+<aside id="app-sidebar"></aside>
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-xl shadow-[0_4px_24px_rgba(0,97,39,0.08)]"><div class="h-20 w-full px-gutter-mobile lg:px-margin max-w-7xl mx-auto flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="Logo Trường Tiểu học Hoàng Mai" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5cjuWWAWsjimfXPTn37XDLU9xQesLsZAhpXmz3qKg6zVBRXPYMUjkoy-u3U2wiL_yrqsnHsIgOzm9-nS0UWwpaKbbVQOwW8mW8SyGA8Nloqjgx9JlcGE9Vtnrjx7AJa39zCrfwQPTfHf1aB9jkJUzew1Qkj12tiD4YtF0Dd8cNQsRpPZYsW-AIubPqVcPo2OFVI3aKps_DVjfVlf5uBkjBNCeKiJ6P-_eCLFvTEl5uEWKgZzltQgwNg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">VƯỜN TOÁN 3</span><span class="font-label-sm text-[12px] text-on-surface-variant font-semibold">TH Hoàng Mai</span></div></div><nav class="hidden xl:flex items-center gap-space-xs bg-surface-container-low p-1.5 rounded-full" data-active-classes="bg-primary text-on-primary font-bold shadow-[0_3px_0_0_#005320] rounded-full"><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="muc-luc-sgk" href="muc-luc.html">Mục Lục SGK</a><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="luyen-tap-va-kiem-tra" href="#">Luyện Tập &amp; Kiểm Tra</a><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="dau-truong-tro-choi" href="#">Đấu Trường Trò Chơi</a><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="bang-xep-hang-va-vinh-danh" href="#">Bảng Xếp Hạng &amp; Vinh Danh</a><a class="font-label-md text-label-md px-3.5 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="goc-thay-co" href="#">Góc Thầy Cô</a></nav><div class="flex items-center gap-space-sm"><div class="hidden md:flex items-center gap-space-xs bg-surface-container-lowest px-2.5 py-1.5 rounded-full shadow-[0_2px_10px_rgba(0,0,0,0.05)]"><div class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm shadow-[inset_0_-2px_0_0_#f7be23]"><span class="material-symbols-outlined text-[18px] text-tertiary">star</span><span>1.250</span></div><div class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-headline-sm text-label-sm shadow-[inset_0_-2px_0_0_#6ddd81]"><span class="material-symbols-outlined text-[18px] text-secondary">military_tech</span><span>Hạng 2</span></div></div><div class="flex items-center gap-2.5 pl-space-xs py-1 pr-3 bg-surface-container-low hover:bg-surface-container transition-colors rounded-full cursor-pointer"><img alt="Hồ sơ học sinh" class="w-9 h-9 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKwA6FT33BYSGdO7z6NLWGOVMAz6PyDh1E0kzf5-4Jvs9IlUa9osjTxIXPXV-SiFr0-mXjeZ74Qb_GUTnRX2F5TYyF9mPoUne33RlMuy7UGiGYAjE_Ohrnd1KFtfLB3IciZMNb82xMZ_ElTdn4e4fIhabnLLL2wAwILSbWyGw7vjQJ69Pf-_Km0CwIhQ90vjGunVdgmOyT2a9i2YxWiHYyM80L0aXMA0ZpmFcwDyP86T0St2quGf_YAw"/><div class="flex flex-col text-left"><span class="font-headline-sm text-label-sm text-on-surface leading-tight">Học sinh</span><span class="font-label-sm text-[11px] text-primary font-bold leading-none">Lớp 3A2 • Sao Chăm Chỉ</span></div></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<div class="w-full max-w-7xl mx-auto px-gutter-mobile lg:px-margin py-space-md space-y-space-md">
+<!-- Thanh điều hướng phụ & Bảng đồng hồ siêu tốc -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_8px_0_0_#e6e9e7] flex flex-col xl:flex-row items-center justify-between gap-space-md">
+<!-- Cột trái: Nút quay lại & Tiêu đề chặng đua -->
+<div class="flex items-center gap-space-sm w-full xl:w-auto">
+<a class="h-14 px-space-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-transform active:translate-y-1 active:shadow-none flex items-center gap-space-xs text-on-surface shadow-[0_4px_0_0_#d8dad9]" href="#">
+<span class="material-symbols-outlined text-[26px] text-primary">arrow_back_ios_new</span>
+<span class="font-headline-sm text-label-md">Đổi Trò Chơi</span>
+</a>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-headline-sm text-label-sm shadow-[inset_0_-2px_0_0_#6ddd81]">
+              CẤP ĐỘ 2
+            </span>
+<span class="font-body-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">sports_score</span>
+              Bảng Cửu Chương 6 &amp; 7
+            </span>
+</div>
+<h1 class="font-headline-md text-headline-md text-primary tracking-tight truncate">
+            Đua Xe Vượt Chướng Ngại Vật: Siêu Tốc Tính Nhẩm
+          </h1>
+</div>
+</div>
+<!-- Cột phải: Các chỉ số game dạng khối đồ chơi 3D nổi bật -->
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-space-xs w-full xl:w-auto">
+<!-- Tốc độ -->
+<div class="bg-surface-container-low px-space-sm py-2 rounded-2xl flex flex-col items-center justify-center shadow-[inset_0_-3px_0_0_#e1e3e1]">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-primary">speed</span> Tốc độ
+          </span>
+<span class="font-headline-md text-headline-md text-primary leading-tight">120 <span class="font-label-sm text-label-sm">km/h</span></span>
+</div>
+<!-- Quãng đường -->
+<div class="bg-surface-container-low px-space-sm py-2 rounded-2xl flex flex-col items-center justify-center shadow-[inset_0_-3px_0_0_#e1e3e1]">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-primary">navigation</span> Đường đua
+          </span>
+<span class="font-headline-md text-headline-md text-primary leading-tight">650<span class="font-label-sm text-label-sm text-on-surface-variant">/1000m</span></span>
+</div>
+<!-- Thời gian -->
+<div class="bg-tertiary-fixed px-space-sm py-2 rounded-2xl flex flex-col items-center justify-center shadow-[0_4px_0_0_#f7be23]">
+<span class="font-label-sm text-label-sm text-on-tertiary-fixed-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-tertiary">timer</span> Thời gian
+          </span>
+<span class="font-headline-md text-headline-md text-on-tertiary-fixed leading-tight" id="timer-display">45s</span>
+</div>
+<!-- Combo & Điểm -->
+<div class="bg-secondary-container px-space-sm py-2 rounded-2xl flex flex-col items-center justify-center shadow-[0_4px_0_0_#006e2c]">
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-secondary">local_fire_department</span> Combo x7
+          </span>
+<span class="font-headline-md text-headline-md text-on-secondary-container leading-tight">680 <span class="font-label-sm text-label-sm">★</span></span>
+</div>
+<!-- Bình Nitro Turbo -->
+<div class="col-span-2 sm:col-span-1 bg-surface-container-low px-space-sm py-2 rounded-2xl flex flex-col items-center justify-center shadow-[inset_0_-3px_0_0_#e1e3e1]">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Bình Nitơ</span>
+<div class="flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-[20px] text-tertiary" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span class="material-symbols-outlined text-[20px] text-tertiary" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span class="material-symbols-outlined text-[20px] text-tertiary" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Khu vực bàn cờ chính: Sân Đua Lớn & Cột Tiện Ích Trái Phải -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md items-start">
+<!-- KHUNG TRÒ CHƠI CHÍNH (Chiếm 8 Cột) -->
+<main class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- Sân khấu 3D Đua xe chạy tịnh tiến -->
+<div class="relative w-full h-[520px] rounded-xl overflow-hidden shadow-[0_12px_28px_rgba(0,97,39,0.12)] bg-gradient-to-b from-[#7ac9ff] via-[#b8e5ff] to-[#42b883] flex flex-col justify-between p-space-md select-none">
+<!-- Bầu trời, vạch mây và dãy núi hoạt hình xa xa -->
+<div class="absolute inset-x-0 top-0 h-40 pointer-events-none opacity-80 overflow-hidden">
+<div class="absolute left-6 top-6 w-20 h-7 bg-surface rounded-full shadow-sm"></div>
+<div class="absolute left-10 top-3 w-12 h-10 bg-surface rounded-full"></div>
+<div class="absolute right-20 top-8 w-28 h-8 bg-surface rounded-full shadow-sm"></div>
+<div class="absolute right-28 top-4 w-14 h-11 bg-surface rounded-full"></div>
+<!-- Cổng vòm sân vận động trường Hoàng Mai -->
+<div class="absolute bottom-2 inset-x-0 flex justify-center">
+<span class="px-6 py-1 rounded-full bg-primary/20 backdrop-blur-sm text-on-primary font-headline-sm text-label-sm uppercase tracking-widest">
+                Đấu Trường Toán Học Hoàng Mai 3A
+              </span>
+</div>
+</div>
+<!-- Bảng điện tử LED treo trên cao: PHÉP TÍNH THỬ THÁCH -->
+<div class="relative z-20 mx-auto w-full max-w-md">
+<div class="bg-surface-container-lowest/95 backdrop-blur-md rounded-2xl p-space-sm shadow-[0_8px_0_0_#1e7b3a,0_16px_24px_rgba(0,0,0,0.12)] text-center flex flex-col items-center">
+<div class="flex items-center gap-space-xs text-primary font-headline-sm text-label-sm">
+<span class="material-symbols-outlined text-[20px] text-tertiary">psychology</span>
+                HÃY CHỌN CỔNG ĐÁP ÁN ĐÚNG ĐỂ VƯỢT XE:
+              </div>
+<!-- Phép tính khổng lồ sinh động -->
+<div class="flex items-center justify-center gap-space-xs mt-1">
+<span class="font-headline-xl text-[44px] text-primary tracking-wide">6</span>
+<span class="font-headline-xl text-[38px] text-tertiary">×</span>
+<span class="font-headline-xl text-[44px] text-primary tracking-wide">8</span>
+<span class="font-headline-xl text-[38px] text-tertiary">=</span>
+<span class="inline-flex items-center justify-center w-14 h-12 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed font-headline-xl text-headline-lg shadow-[inset_0_-3px_0_0_#f7be23]">
+                  ?
+                </span>
+</div>
+</div>
+</div>
+<!-- Lòng đường phối cảnh 3D 3 Làn xe với 3 Cổng Năng Lượng / Chướng ngại vật -->
+<div class="relative z-10 w-full flex-1 flex flex-col justify-end mt-4">
+<!-- Mặt đường cao tốc asphalt bo thuôn viễn cận -->
+<div class="relative w-full h-[320px] [perspective:600px] flex justify-center overflow-hidden">
+<div class="w-[96%] h-full bg-[#2c3e50] rounded-t-[3rem] shadow-inner [transform:rotateX(42deg)] [transform-origin:bottom_center] relative flex">
+<!-- Vạch kẻ sơn phân làn đứt khúc màu vàng phản quang -->
+<div class="absolute inset-y-0 left-1/3 w-2 border-r-4 border-dashed border-tertiary-fixed opacity-70"></div>
+<div class="absolute inset-y-0 right-1/3 w-2 border-l-4 border-dashed border-tertiary-fixed opacity-70"></div>
+<!-- Cỏ hai bên đường chuyển động -->
+<div class="absolute inset-y-0 left-0 w-4 bg-primary-fixed-dim"></div>
+<div class="absolute inset-y-0 right-0 w-4 bg-primary-fixed-dim"></div>
+</div>
+<!-- 3 CỔNG ĐÁP ÁN & CHƯỚNG NGẠI VẬT TREO TRÊN 3 LÀN -->
+<div class="absolute top-10 inset-x-4 flex justify-between gap-space-xs z-20 pointer-events-none">
+<!-- LÀN 1 (Trái): Chướng ngại vật Sai (Cổng 46) -->
+<div class="w-1/3 flex flex-col items-center">
+<div class="w-24 sm:w-28 bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl p-2 flex flex-col items-center shadow-[0_8px_0_0_#ba1a1a] transition-transform animate-bounce">
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-headline-sm text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">warning</span> Rung Lắc
+                    </span>
+<span class="font-headline-xl text-headline-xl text-error mt-0.5">46</span>
+<div class="w-full h-2 rounded-full bg-error/30 mt-1"></div>
+</div>
+<!-- Barrier chắn đường đỏ -->
+<div class="w-20 h-3 rounded-full bg-error mt-2 shadow-[0_3px_0_0_#93000a] flex items-center justify-around px-1">
+<span class="w-2 h-1 bg-surface rounded-full"></span>
+<span class="w-2 h-1 bg-surface rounded-full"></span>
+<span class="w-2 h-1 bg-surface rounded-full"></span>
+</div>
+</div>
+<!-- LÀN 2 (Giữa): CỔNG ĐÁP ÁN ĐÚNG PHÁT SÁNG (Cổng 48) -->
+<div class="w-1/3 flex flex-col items-center">
+<div class="relative w-28 sm:w-32 bg-secondary-container rounded-2xl p-2.5 flex flex-col items-center shadow-[0_10px_0_0_#006e2c,0_0_35px_rgba(134,248,152,0.9)] ring-4 ring-tertiary-fixed scale-105">
+<div class="absolute -top-3 px-3 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm shadow-[0_3px_0_0_#f7be23] flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary" style="font-variation-settings: 'FILL' 1;">verified</span>
+                      ĐÍCH ĐẾN!
+                    </div>
+<span class="font-headline-xl text-[44px] text-on-secondary-container leading-none mt-1">48</span>
+<span class="font-headline-sm text-label-sm text-secondary flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">shield</span> +200 SAO
+                    </span>
+</div>
+<!-- Cổng Năng Lượng Xanh Neon Bảo Vệ -->
+<div class="w-28 h-3.5 rounded-full bg-secondary-fixed shadow-[0_4px_0_0_#006e2c] mt-2 flex items-center justify-center">
+<span class="font-headline-sm text-[10px] text-on-secondary-fixed tracking-widest font-bold">LỐI AN TOÀN</span>
+</div>
+</div>
+<!-- LÀN 3 (Phải): Chướng ngại vật Sai (Cổng 54 - Khối đá cản trở) -->
+<div class="w-1/3 flex flex-col items-center">
+<div class="w-24 sm:w-28 bg-surface-container-lowest/90 backdrop-blur-md rounded-2xl p-2 flex flex-col items-center shadow-[0_8px_0_0_#6f7a6e]">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-headline-sm text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">block</span> Khối Đá
+                    </span>
+<span class="font-headline-xl text-headline-xl text-on-surface-variant mt-0.5">54</span>
+<div class="w-full h-2 rounded-full bg-outline-variant mt-1"></div>
+</div>
+<!-- Tảng đá chướng ngại vật -->
+<div class="w-16 h-4 rounded-xl bg-surface-dim shadow-[0_3px_0_0_#6f7a6e] mt-2 flex items-center justify-center">
+<span class="font-headline-sm text-[10px] text-on-surface-variant">CHẶN ĐƯỜNG</span>
+</div>
+</div>
+</div>
+<!-- CHIẾC XE ĐUA HOÀNG MAI 3A ĐANG LƯỚT Ở LÀN GIỮA (Làn 2) -->
+<div class="absolute bottom-6 inset-x-0 flex justify-center z-30 transition-all duration-300 transform translate-x-0" id="race-car-container">
+<div class="relative flex flex-col items-center group cursor-pointer">
+<!-- Khói phản lực Turbo lấp lánh sau xe -->
+<div class="absolute -bottom-3 flex items-center gap-3 opacity-90 animate-pulse">
+<span class="w-4 h-6 rounded-full bg-tertiary-fixed blur-xs"></span>
+<span class="w-5 h-8 rounded-full bg-secondary-fixed blur-xs"></span>
+<span class="w-4 h-6 rounded-full bg-tertiary-fixed blur-xs"></span>
+</div>
+<!-- Thân xe đua Mui Trần Hoàng Mai 3A -->
+<div class="w-36 h-28 bg-gradient-to-t from-primary to-primary-container rounded-3xl p-2.5 shadow-[0_12px_0_0_#002109,0_20px_25px_rgba(0,0,0,0.3)] flex flex-col items-center justify-between text-on-primary relative">
+<!-- Kính chắn gió công nghệ & Buồng lái -->
+<div class="w-24 h-10 bg-secondary-container/40 rounded-xl flex items-center justify-center border-2 border-secondary-fixed/50">
+<span class="material-symbols-outlined text-[24px] text-on-secondary-fixed">face</span>
+<span class="font-headline-sm text-label-sm ml-1 text-on-primary">Học sinh</span>
+</div>
+<!-- Mũi xe và Biển số lớp 3A Hoàng Mai -->
+<div class="flex items-center justify-between w-full px-2">
+<span class="w-3.5 h-3.5 rounded-full bg-tertiary-fixed shadow-[0_0_8px_#ffdf9d]"></span>
+<span class="px-2 py-0.5 rounded-md bg-surface-container-lowest text-primary font-headline-sm text-label-sm shadow-[0_2px_0_0_#d8dad9]">
+                        3A • THHM
+                      </span>
+<span class="w-3.5 h-3.5 rounded-full bg-tertiary-fixed shadow-[0_0_8px_#ffdf9d]"></span>
+</div>
+<!-- Cánh gió thể thao sau xe -->
+<div class="absolute -top-3 w-32 h-3 bg-secondary rounded-full shadow-[0_2px_0_0_#005320]"></div>
+</div>
+<!-- Bánh xe đua bám đường -->
+<div class="absolute -left-3 bottom-2 w-4 h-12 bg-on-background rounded-l-lg shadow-md"></div>
+<div class="absolute -right-3 bottom-2 w-4 h-12 bg-on-background rounded-r-lg shadow-md"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Băng rôn cảnh báo động viên ở mép dưới sàn khấu -->
+<div class="relative z-20 flex items-center justify-between bg-surface-container-lowest/90 backdrop-blur-md px-space-md py-2 rounded-2xl shadow-sm">
+<div class="flex items-center gap-space-xs text-primary font-headline-sm text-label-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">auto_awesome</span>
+<span>Giữ vững tay lái! Còn 2 cửa ải nữa để nhận Huy Hiệu Tia Chớp.</span>
+</div>
+<span class="font-body-sm text-label-sm text-on-surface-variant hidden sm:inline">Phím tắt: A, D hoặc ⬅ ➡</span>
+</div>
+</div>
+<!-- Bàn điều khiển tay lái đua xe 3D ngoại cỡ -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_8px_0_0_#e6e9e7] flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm w-full md:w-auto">
+<!-- Nút Lái Sang Trái -->
+<button class="flex-1 md:flex-none h-16 px-space-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-transform active:translate-y-1 active:shadow-none shadow-[0_6px_0_0_#d8dad9] flex items-center justify-center gap-space-xs text-on-surface font-headline-sm text-label-lg" onclick="steerLeft()">
+<span class="material-symbols-outlined text-[28px] text-primary">arrow_circle_left</span>
+<span>Làn Trái [A]</span>
+</button>
+<!-- Nút Lái Sang Phải -->
+<button class="flex-1 md:flex-none h-16 px-space-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-transform active:translate-y-1 active:shadow-none shadow-[0_6px_0_0_#d8dad9] flex items-center justify-center gap-space-xs text-on-surface font-headline-sm text-label-lg" onclick="steerRight()">
+<span>Làn Phải [D]</span>
+<span class="material-symbols-outlined text-[28px] text-primary">arrow_circle_right</span>
+</button>
+</div>
+<!-- NÚT TURBO TĂNG TỐC NGOẠI CỠ (Chunky 3D Action Button) -->
+<button class="w-full md:w-auto flex-1 h-16 px-space-lg rounded-2xl bg-tertiary-fixed hover:bg-tertiary-fixed-dim transition-transform active:translate-y-1.5 active:shadow-none shadow-[0_6px_0_0_#6a4f00] flex items-center justify-center gap-space-xs text-on-tertiary-fixed font-headline-sm text-headline-sm" onclick="triggerTurbo()">
+<span class="material-symbols-outlined text-[32px] text-tertiary" style="font-variation-settings: 'FILL' 1;">rocket_launch</span>
+<span>TĂNG TỐC TURBO VƯỢT CỔNG (PHÍM CÁCH)</span>
+</button>
+</section>
+<!-- Trợ Lý Ong Vàng Hoàng Mai: Mẹo tư duy nhẩm siêu nhanh -->
+<section class="bg-surface-container-low rounded-xl p-space-md shadow-[inset_0_-3px_0_0_#e1e3e1] flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed shadow-[0_4px_0_0_#f7be23] shrink-0">
+<span class="material-symbols-outlined text-[36px] text-tertiary">emoji_objects</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-label-md text-primary flex items-center gap-1">
+              Thầy Ong Vàng Bật Mí Mẹo Tính Nhanh:
+            </span>
+<p class="font-body-md text-body-md text-on-surface leading-snug mt-0.5">
+              Để tìm nhanh <strong>6 × 8</strong>: Em lấy <strong>6 × 7 = 42</strong>, rồi chỉ cần cộng thêm <strong>6 đơn vị</strong> nữa thôi nhé: <span class="px-2 py-0.5 rounded-lg bg-surface-container-lowest font-headline-sm text-primary shadow-xs">42 + 6 = 48</span>! Thật dễ dàng phải không nào?
+            </p>
+</div>
+</section>
+</main>
+<!-- CỘT TIỆN ÍCH BÊN PHẢI (Chiếm 4 Cột) -->
+<aside class="lg:col-span-4 flex flex-col gap-space-md">
+<!-- Danh mục 5 trò chơi Đấu Trường Hoàng Mai -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_8px_0_0_#e6e9e7] space-y-space-sm">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-label-lg text-primary flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[22px]">videogame_asset</span>
+              Đấu Trường Trò Chơi Toán
+            </h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lớp 3A</span>
+</div>
+<div class="flex flex-col gap-2">
+<!-- Game 1: Bắn bóng -->
+<div class="p-2.5 rounded-2xl bg-surface-container-low flex items-center justify-between hover:bg-surface-container transition-colors cursor-pointer">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[22px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-headline-sm text-label-md text-on-surface">1. Bắn Bóng Phép Tính</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-headline-sm text-label-sm">Đã Xong</span>
+</div>
+<!-- Game 2: Đang Chơi -->
+<div class="p-2.5 rounded-2xl bg-primary text-on-primary flex items-center justify-between shadow-[0_4px_0_0_#002109]">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[22px] text-tertiary-fixed animate-spin">sports_score</span>
+<span class="font-headline-sm text-label-md text-on-primary">2. Đua Xe Vượt Cản</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm shadow-xs">ĐANG CHƠI</span>
+</div>
+<!-- Game 3: Lật Thẻ Trí Nhớ -->
+<div class="p-2.5 rounded-2xl bg-surface-container-low flex items-center justify-between hover:bg-surface-container transition-colors cursor-pointer">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">style</span>
+<span class="font-headline-sm text-label-md text-on-surface">3. Lật Thẻ Trí Nhớ 4x4</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-headline-sm text-label-sm">Đã Mở</span>
+</div>
+<!-- Game 4: Câu Cá Đại Dương -->
+<div class="p-2.5 rounded-2xl bg-surface-container-low flex items-center justify-between hover:bg-surface-container transition-colors cursor-pointer">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[22px]">set_meal</span>
+<span class="font-headline-sm text-label-md text-on-surface">4. Câu Cá Đại Dương Số</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm">MỚI</span>
+</div>
+<!-- Game 5: Đố Vui Tiếp Sức -->
+<div class="p-2.5 rounded-2xl bg-surface-container-low flex items-center justify-between hover:bg-surface-container transition-colors cursor-pointer">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">smart_toy</span>
+<span class="font-headline-sm text-label-md text-on-surface">5. Tiếp Sức Robot Bo Bo</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm">MỚI</span>
+</div>
+</div>
+</div>
+<!-- Trạm Nâng Cấp Xe Đua Toán Học (Gamified Garage) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_8px_0_0_#e6e9e7] space-y-space-sm">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-label-lg text-primary flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[22px] text-tertiary">minor_crash</span>
+              Gara Nâng Cấp Xe Đua
+            </h2>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm">
+              680 ★ có sẵn
+            </span>
+</div>
+<div class="space-y-space-xs">
+<!-- Nâng cấp 1 -->
+<div class="p-space-xs bg-surface-container-low rounded-2xl flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[22px]">bolt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Xe Thần Tốc 3A</span>
+<span class="font-body-sm text-[12px] text-secondary">Tăng tốc độ +15%</span>
+</div>
+</div>
+<button class="h-9 px-3 rounded-xl bg-primary text-on-primary font-headline-sm text-label-sm shadow-[0_3px_0_0_#002109] hover:bg-primary-container active:translate-y-0.5">
+                Đang Dùng
+              </button>
+</div>
+<!-- Nâng cấp 2 -->
+<div class="p-space-xs bg-surface-container-low rounded-2xl flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-10 h-10 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[22px]">shield</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Xe Voi Nam Siêu Cấp</span>
+<span class="font-body-sm text-[12px] text-tertiary">Chặn va chạm 1 lần</span>
+</div>
+</div>
+<button class="h-9 px-3 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm shadow-[0_3px_0_0_#f7be23] hover:bg-tertiary-fixed-dim active:translate-y-0.5 flex items-center gap-1">
+<span>500 ★</span>
+</button>
+</div>
+<!-- Nâng cấp 3 -->
+<div class="p-space-xs bg-surface-container-low rounded-2xl flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-10 h-10 rounded-xl bg-surface-container-highest flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[22px]">campaign</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Còi Cứu Hộ Toán Học</span>
+<span class="font-body-sm text-[12px] text-on-surface-variant">Gợi ý phép tính 1 lần</span>
+</div>
+</div>
+<button class="h-9 px-3 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm shadow-[0_3px_0_0_#f7be23] hover:bg-tertiary-fixed-dim active:translate-y-0.5 flex items-center gap-1">
+<span>350 ★</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Bảng Thành Tích Siêu Tay Đua Lớp 3A -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_8px_0_0_#e6e9e7] space-y-space-sm">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-label-lg text-primary flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[22px] text-tertiary" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+              Top Siêu Tay Đua 3A
+            </h2>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Hôm nay</span>
+</div>
+<!-- Danh sách xếp hạng -->
+<div class="space-y-space-xs">
+<!-- Hạng 1 -->
+<div class="p-space-xs rounded-2xl bg-tertiary-fixed/30 flex items-center justify-between shadow-[inset_0_-2px_0_0_#ffdf9d]">
+<div class="flex items-center gap-space-xs">
+<span class="w-7 h-7 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-headline-sm text-label-sm flex items-center justify-center shadow-xs">
+                  1
+                </span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Mai Anh</span>
+<span class="font-body-sm text-[12px] text-tertiary">Tay đua cừ khôi</span>
+</div>
+</div>
+<span class="font-headline-sm text-label-lg text-tertiary">1.850m</span>
+</div>
+<!-- Hạng 2 (Người dùng hiện tại) -->
+<div class="p-space-xs rounded-2xl bg-secondary-fixed/40 flex items-center justify-between shadow-[inset_0_-2px_0_0_#89fa9b]">
+<div class="flex items-center gap-space-xs">
+<span class="w-7 h-7 rounded-full bg-secondary-fixed text-on-secondary-fixed font-headline-sm text-label-sm flex items-center justify-center shadow-xs">
+                  2
+                </span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-primary leading-tight">Học sinh (Em)</span>
+<span class="font-body-sm text-[12px] text-secondary">Siêu Tốc 3A</span>
+</div>
+</div>
+<span class="font-headline-sm text-label-lg text-secondary">1.420m</span>
+</div>
+<!-- Hạng 3 -->
+<div class="p-space-xs rounded-2xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-7 h-7 rounded-full bg-surface-container-high text-on-surface-variant font-headline-sm text-label-sm flex items-center justify-center">
+                  3
+                </span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Minh Khôi</span>
+<span class="font-body-sm text-[12px] text-on-surface-variant">Lớp 3A</span>
+</div>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface-variant">1.210m</span>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<!-- Kịch bản điều khiển tương tác xe đua mượt mà cho học sinh -->
+</main><footer class="w-full bg-surface-container-lowest shadow-[0_-4px_20px_rgba(0,0,0,0.03)] py-space-lg" data-shared-footer=""><div class="w-full px-gutter-mobile lg:px-margin max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-2xl bg-secondary-container text-on-secondary-container flex items-center justify-center font-headline-md shadow-[0_3px_0_0_#006e2c]"><span class="material-symbols-outlined">school</span></div><div><p class="font-headline-sm text-label-lg text-primary leading-tight">Trường Tiểu học Hoàng Mai - Hà Nội</p><p class="font-body-sm text-body-sm text-on-surface-variant">Vườn Toán Thông Minh Dành Cho Học Sinh Lớp 3</p></div></div><div class="flex flex-wrap items-center justify-center gap-space-md text-on-surface-variant font-label-md text-label-md"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[20px]">menu_book</span> Chương trình GDPT 2018</span><span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[20px]">support_agent</span> Phòng Thiết bị số Hoàng Mai</span><span class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[20px]">call</span> Hotline: (024) 3861 2xxx</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-center">© 2025 Trường Tiểu học Hoàng Mai. Dành trọn tình yêu thương cho học sinh lớp 3.</p></div></footer>
+<script src="assets/js/core/api.js"></script>
+<script src="assets/js/components/sidebar.js"></script>
+<script src="assets/js/components/navbar.js"></script>
+<script src="assets/js/components/footer.js"></script>
+<script src="assets/js/core/app.js"></script>
+<script src="assets/js/core/game-score.js"></script>
+<script src="assets/js/pages/game2.js"></script>
+</body>
+</html>

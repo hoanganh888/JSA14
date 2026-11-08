@@ -1,0 +1,693 @@
+{
+  "grade": 3,
+  "book": "Toán 3 – Kết nối tri thức với cuộc sống (NXB Giáo dục Việt Nam)",
+  "reviewStatus": "DRAFT",
+  "sources": [
+    {
+      "volume": 1,
+      "note": "Trang Mục lục SGK Toán 3 tập một (tái bản lần thứ tư), đọc từ PDF trên Google Drive của chủ nhiệm, 15/10/2026; có số trang."
+    },
+    {
+      "volume": 2,
+      "note": "VietJack – Toán 3 Kết nối tri thức (https://vietjack.com/toan-3-kn/), đọc 15/10/2026; chưa có số trang, cần giáo viên đối chiếu sách."
+    }
+  ],
+  "activeLessons": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "topics": [
+    {
+      "number": 1,
+      "title": "Ôn tập và bổ sung",
+      "volume": 1,
+      "page": 6,
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Ôn tập các số đến 1000",
+          "page": 6
+        },
+        {
+          "number": 2,
+          "title": "Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+          "page": 9
+        },
+        {
+          "number": 3,
+          "title": "Tìm thành phần trong phép cộng, phép trừ",
+          "page": 11
+        },
+        {
+          "number": 4,
+          "title": "Ôn tập bảng nhân 2; 5, bảng chia 2; 5",
+          "page": 14
+        },
+        {
+          "number": 5,
+          "title": "Bảng nhân 3, bảng chia 3",
+          "page": 16
+        },
+        {
+          "number": 6,
+          "title": "Bảng nhân 4, bảng chia 4",
+          "page": 19
+        },
+        {
+          "number": 7,
+          "title": "Ôn tập hình học và đo lường",
+          "page": 21
+        },
+        {
+          "number": 8,
+          "title": "Luyện tập chung",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Bảng nhân, bảng chia",
+      "volume": 1,
+      "page": 28,
+      "lessons": [
+        {
+          "number": 9,
+          "title": "Bảng nhân 6, bảng chia 6",
+          "page": 28,
+          "skills": [
+            "g3.number.tables-6-9"
+          ],
+          "templates": [
+            "g3.number.tables-6-9#facts",
+            "g3.number.tables-6-9#sequence",
+            "g3.number.tables-6-9#same-result",
+            "g3.number.tables-6-9#compare",
+            "g3.number.tables-6-9#truefalse",
+            "g3.number.tables-6-9#table-multi",
+            "g3.number.tables-6-9#word-groups",
+            "g3.number.tables-6-9#word-share",
+            "g3.number.tables-6-9#match",
+            "g3.number.tables-6-9#order",
+            "g3.number.tables-6-9#fill"
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Bảng nhân 7, bảng chia 7",
+          "page": 31,
+          "skills": [
+            "g3.number.tables-6-9"
+          ],
+          "templates": [
+            "g3.number.tables-6-9#facts",
+            "g3.number.tables-6-9#sequence",
+            "g3.number.tables-6-9#same-result",
+            "g3.number.tables-6-9#compare",
+            "g3.number.tables-6-9#truefalse",
+            "g3.number.tables-6-9#table-multi",
+            "g3.number.tables-6-9#word-groups",
+            "g3.number.tables-6-9#word-share",
+            "g3.number.tables-6-9#match",
+            "g3.number.tables-6-9#order",
+            "g3.number.tables-6-9#fill"
+          ]
+        },
+        {
+          "number": 11,
+          "title": "Bảng nhân 8, bảng chia 8",
+          "page": 33,
+          "skills": [
+            "g3.number.tables-6-9"
+          ],
+          "templates": [
+            "g3.number.tables-6-9#facts",
+            "g3.number.tables-6-9#sequence",
+            "g3.number.tables-6-9#same-result",
+            "g3.number.tables-6-9#compare",
+            "g3.number.tables-6-9#truefalse",
+            "g3.number.tables-6-9#table-multi",
+            "g3.number.tables-6-9#word-groups",
+            "g3.number.tables-6-9#word-share",
+            "g3.number.tables-6-9#match",
+            "g3.number.tables-6-9#order",
+            "g3.number.tables-6-9#fill"
+          ]
+        },
+        {
+          "number": 12,
+          "title": "Bảng nhân 9, bảng chia 9",
+          "page": 36,
+          "skills": [
+            "g3.number.tables-6-9"
+          ],
+          "templates": [
+            "g3.number.tables-6-9#facts",
+            "g3.number.tables-6-9#sequence",
+            "g3.number.tables-6-9#same-result",
+            "g3.number.tables-6-9#compare",
+            "g3.number.tables-6-9#truefalse",
+            "g3.number.tables-6-9#table-multi",
+            "g3.number.tables-6-9#word-groups",
+            "g3.number.tables-6-9#word-share",
+            "g3.number.tables-6-9#match",
+            "g3.number.tables-6-9#order",
+            "g3.number.tables-6-9#fill"
+          ]
+        },
+        {
+          "number": 13,
+          "title": "Tìm thành phần trong phép nhân, phép chia",
+          "page": 39,
+          "skills": [
+            "g3.number.find-component",
+            "g3.number.tables-6-9"
+          ],
+          "templates": [
+            "g3.number.find-component#find-component",
+            "g3.number.tables-6-9#word-groups"
+          ],
+          "primarySkill": "g3.number.find-component"
+        },
+        {
+          "number": 14,
+          "title": "Một phần mấy",
+          "page": 42,
+          "skills": [
+            "g3.number.fraction-unit",
+            "g3.number.tables-6-9"
+          ],
+          "templates": [
+            "g3.number.fraction-unit#fraction-unit",
+            "g3.number.tables-6-9#word-share",
+            "g3.number.tables-6-9#match",
+            "g3.number.tables-6-9#order",
+            "g3.number.tables-6-9#fill"
+          ],
+          "primarySkill": "g3.number.fraction-unit"
+        },
+        {
+          "number": 15,
+          "title": "Luyện tập chung",
+          "page": 46,
+          "skills": [
+            "g3.number.tables-6-9",
+            "g3.number.find-component",
+            "g3.number.fraction-unit"
+          ],
+          "templates": [
+            "g3.number.tables-6-9#facts",
+            "g3.number.tables-6-9#compare",
+            "g3.number.tables-6-9#truefalse",
+            "g3.number.tables-6-9#table-multi",
+            "g3.number.find-component#find-component",
+            "g3.number.fraction-unit#fraction-unit",
+            "g3.number.tables-6-9#word-groups",
+            "g3.number.tables-6-9#word-share",
+            "g3.number.tables-6-9#match",
+            "g3.number.tables-6-9#order",
+            "g3.number.tables-6-9#fill"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Làm quen với hình phẳng, hình khối",
+      "volume": 1,
+      "page": 49,
+      "lessons": [
+        {
+          "number": 16,
+          "title": "Điểm ở giữa, trung điểm của đoạn thẳng",
+          "page": 49,
+          "skills": [
+            "g3.measure.midpoint"
+          ],
+          "primarySkill": "g3.measure.midpoint",
+          "templates": [
+            "g3.measure.midpoint#midpoint-half",
+            "g3.measure.midpoint#midpoint-ruler"
+          ]
+        },
+        {
+          "number": 17,
+          "title": "Hình tròn. Tâm, bán kính, đường kính của hình tròn",
+          "page": 52,
+          "skills": [
+            "g3.measure.circle"
+          ],
+          "primarySkill": "g3.measure.circle",
+          "templates": [
+            "g3.measure.circle#circle-diameter",
+            "g3.measure.circle#circle-compass"
+          ]
+        },
+        {
+          "number": 18,
+          "title": "Góc, góc vuông, góc không vuông",
+          "page": 54,
+          "skills": [
+            "g3.measure.right-angle"
+          ],
+          "primarySkill": "g3.measure.right-angle",
+          "templates": [
+            "g3.measure.right-angle#right-angle-tool",
+            "g3.measure.right-angle#right-angle-count"
+          ]
+        },
+        {
+          "number": 19,
+          "title": "Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông",
+          "page": 56,
+          "skills": [
+            "g3.measure.plane-shapes"
+          ],
+          "primarySkill": "g3.measure.plane-shapes",
+          "templates": [
+            "g3.measure.plane-shapes#plane-parts",
+            "g3.measure.plane-shapes#plane-opposite"
+          ]
+        },
+        {
+          "number": 20,
+          "title": "Thực hành vẽ góc vuông, vẽ đường tròn, hình vuông, hình chữ nhật và vẽ trang trí",
+          "page": 61,
+          "skills": [
+            "g3.measure.right-angle",
+            "g3.measure.circle"
+          ],
+          "primarySkill": "g3.measure.right-angle",
+          "templates": [
+            "g3.measure.right-angle#right-angle-tool",
+            "g3.measure.right-angle#right-angle-count",
+            "g3.measure.circle#circle-compass"
+          ]
+        },
+        {
+          "number": 21,
+          "title": "Khối lập phương, khối hộp chữ nhật",
+          "page": 63,
+          "skills": [
+            "g3.measure.solids"
+          ],
+          "primarySkill": "g3.measure.solids",
+          "templates": [
+            "g3.measure.solids#solids-parts",
+            "g3.measure.solids#solids-stack"
+          ]
+        },
+        {
+          "number": 22,
+          "title": "Luyện tập chung",
+          "page": 65,
+          "skills": [
+            "g3.measure.midpoint",
+            "g3.measure.circle",
+            "g3.measure.right-angle",
+            "g3.measure.plane-shapes",
+            "g3.measure.solids"
+          ],
+          "primarySkill": "g3.measure.midpoint",
+          "templates": [
+            "g3.measure.midpoint#midpoint-half",
+            "g3.measure.midpoint#midpoint-ruler",
+            "g3.measure.circle#circle-diameter",
+            "g3.measure.circle#circle-compass",
+            "g3.measure.right-angle#right-angle-tool",
+            "g3.measure.right-angle#right-angle-count",
+            "g3.measure.plane-shapes#plane-parts",
+            "g3.measure.plane-shapes#plane-opposite",
+            "g3.measure.solids#solids-parts",
+            "g3.measure.solids#solids-stack"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Phép nhân, phép chia trong phạm vi 100",
+      "volume": 1,
+      "page": 67,
+      "lessons": [
+        {
+          "number": 23,
+          "title": "Nhân số có hai chữ số với số có một chữ số",
+          "page": 67
+        },
+        {
+          "number": 24,
+          "title": "Gấp một số lên một số lần",
+          "page": 70
+        },
+        {
+          "number": 25,
+          "title": "Phép chia hết, phép chia có dư",
+          "page": 72
+        },
+        {
+          "number": 26,
+          "title": "Chia số có hai chữ số cho số có một chữ số",
+          "page": 75
+        },
+        {
+          "number": 27,
+          "title": "Giảm một số đi một số lần",
+          "page": 79
+        },
+        {
+          "number": 28,
+          "title": "Bài toán giải bằng hai bước tính",
+          "page": 81
+        },
+        {
+          "number": 29,
+          "title": "Luyện tập chung",
+          "page": 83
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+      "volume": 1,
+      "page": 85,
+      "lessons": [
+        {
+          "number": 30,
+          "title": "Mi-li-mét",
+          "page": 85
+        },
+        {
+          "number": 31,
+          "title": "Gam",
+          "page": 87
+        },
+        {
+          "number": 32,
+          "title": "Mi-li-lít",
+          "page": 89
+        },
+        {
+          "number": 33,
+          "title": "Nhiệt độ. Đơn vị đo nhiệt độ",
+          "page": 91
+        },
+        {
+          "number": 34,
+          "title": "Thực hành và trải nghiệm với các đơn vị mi-li-mét, gam, mi-li-lít, độ C",
+          "page": 93
+        },
+        {
+          "number": 35,
+          "title": "Luyện tập chung",
+          "page": 95
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Phép nhân, phép chia trong phạm vi 1000",
+      "volume": 1,
+      "page": 97,
+      "lessons": [
+        {
+          "number": 36,
+          "title": "Nhân số có ba chữ số với số có một chữ số",
+          "page": 97
+        },
+        {
+          "number": 37,
+          "title": "Chia số có ba chữ số cho số có một chữ số",
+          "page": 99
+        },
+        {
+          "number": 38,
+          "title": "Biểu thức số. Tính giá trị của biểu thức số",
+          "page": 104
+        },
+        {
+          "number": 39,
+          "title": "So sánh số lớn gấp mấy lần số bé",
+          "page": 109
+        },
+        {
+          "number": 40,
+          "title": "Luyện tập chung",
+          "page": 111
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Ôn tập học kì 1",
+      "volume": 1,
+      "page": 113,
+      "lessons": [
+        {
+          "number": 41,
+          "title": "Ôn tập phép nhân, phép chia trong phạm vi 100, 1000",
+          "page": 113
+        },
+        {
+          "number": 42,
+          "title": "Ôn tập biểu thức số",
+          "page": 116
+        },
+        {
+          "number": 43,
+          "title": "Ôn tập hình học và đo lường",
+          "page": 118
+        },
+        {
+          "number": 44,
+          "title": "Ôn tập chung",
+          "page": 120
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Các số đến 10 000",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 45,
+          "title": "Các số có bốn chữ số. Số 10 000"
+        },
+        {
+          "number": 46,
+          "title": "So sánh các số trong phạm vi 10 000"
+        },
+        {
+          "number": 47,
+          "title": "Làm quen với chữ số La Mã"
+        },
+        {
+          "number": 48,
+          "title": "Làm tròn số đến hàng chục, hàng trăm"
+        },
+        {
+          "number": 49,
+          "title": "Luyện tập chung"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Chu vi, diện tích một số hình phẳng",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 50,
+          "title": "Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông"
+        },
+        {
+          "number": 51,
+          "title": "Diện tích của một hình. Xăng-ti-mét vuông"
+        },
+        {
+          "number": 52,
+          "title": "Diện tích hình chữ nhật, diện tích hình vuông"
+        },
+        {
+          "number": 53,
+          "title": "Luyện tập chung"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Cộng, trừ, nhân, chia trong phạm vi 10 000",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 54,
+          "title": "Phép cộng trong phạm vi 10 000"
+        },
+        {
+          "number": 55,
+          "title": "Phép trừ trong phạm vi 10 000"
+        },
+        {
+          "number": 56,
+          "title": "Nhân số có bốn chữ số với số có một chữ số"
+        },
+        {
+          "number": 57,
+          "title": "Chia số có bốn chữ số cho số có một chữ số"
+        },
+        {
+          "number": 58,
+          "title": "Luyện tập chung"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Các số đến 100 000",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 59,
+          "title": "Các số có năm chữ số. Số 100 000"
+        },
+        {
+          "number": 60,
+          "title": "So sánh các số trong phạm vi 100 000"
+        },
+        {
+          "number": 61,
+          "title": "Làm tròn số đến hàng nghìn, hàng chục nghìn"
+        },
+        {
+          "number": 62,
+          "title": "Luyện tập chung"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Cộng, trừ trong phạm vi 100 000",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 63,
+          "title": "Phép cộng trong phạm vi 100 000"
+        },
+        {
+          "number": 64,
+          "title": "Phép trừ trong phạm vi 100 000"
+        },
+        {
+          "number": 65,
+          "title": "Luyện tập chung"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Xem đồng hồ. Tháng – năm. Tiền Việt Nam",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 66,
+          "title": "Xem đồng hồ. Tháng – năm"
+        },
+        {
+          "number": 67,
+          "title": "Thực hành xem đồng hồ, xem lịch"
+        },
+        {
+          "number": 68,
+          "title": "Tiền Việt Nam"
+        },
+        {
+          "number": 69,
+          "title": "Luyện tập chung"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Nhân, chia trong phạm vi 100 000",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 70,
+          "title": "Nhân số có năm chữ số với số có một chữ số"
+        },
+        {
+          "number": 71,
+          "title": "Chia số có năm chữ số cho số có một chữ số"
+        },
+        {
+          "number": 72,
+          "title": "Luyện tập chung"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Làm quen với yếu tố thống kê, xác suất",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 73,
+          "title": "Thu thập, phân loại, ghi chép số liệu. Bảng số liệu"
+        },
+        {
+          "number": 74,
+          "title": "Khả năng xảy ra của một sự kiện"
+        },
+        {
+          "number": 75,
+          "title": "Thực hành và trải nghiệm thu thập, phân loại, ghi chép số liệu, đọc bảng số liệu"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Ôn tập cuối năm",
+      "volume": 2,
+      "lessons": [
+        {
+          "number": 76,
+          "title": "Ôn tập các số trong phạm vi 10 000, 100 000"
+        },
+        {
+          "number": 77,
+          "title": "Ôn tập phép cộng, phép trừ trong phạm vi 100 000"
+        },
+        {
+          "number": 78,
+          "title": "Ôn tập phép nhân, phép chia trong phạm vi 100 000"
+        },
+        {
+          "number": 79,
+          "title": "Ôn tập hình học và đo lường"
+        },
+        {
+          "number": 80,
+          "title": "Ôn tập bảng số liệu, khả năng xảy ra của một sự kiện"
+        },
+        {
+          "number": 81,
+          "title": "Ôn tập chung"
+        }
+      ]
+    }
+  ]
+}

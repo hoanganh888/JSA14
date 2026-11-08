@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Đăng nhập — Vườn Toán Lớp 3</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="assets/css/tailwind.build.css" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="assets/js/tailwind.config.js"></script>
+<link href="assets/css/app.css" rel="stylesheet"/>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body class="bg-background font-body-md text-on-surface antialiased min-h-screen" data-page="login">
+<main class="w-full min-h-screen bg-background"><div class="flex flex-col w-full">
+<div class="relative w-full overflow-hidden bg-background py-8 px-4 sm:px-6 lg:px-12 flex items-center justify-center min-h-[92vh]">
+<!-- Background Tactile Ornaments -->
+<div class="absolute -top-12 -left-12 w-96 h-96 bg-primary-fixed/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-16 -right-16 w-96 h-96 bg-tertiary-fixed/35 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/3 right-1/4 w-64 h-64 bg-secondary-fixed/20 rounded-full blur-2xl pointer-events-none"></div>
+<!-- Main Container Bento -->
+<div class="relative w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-stretch">
+<!-- CỘT TRÁI: Linh vật Voi Toán Học, Lời chào & Huy hiệu thành tích -->
+<div class="lg:col-span-5 flex flex-col justify-between bg-surface-container-low rounded-xl p-6 sm:p-8 relative overflow-hidden shadow-lg border-b-[6px] border-surface-dim">
+<div class="absolute top-0 right-0 w-36 h-36 bg-primary-fixed/20 rounded-bl-full pointer-events-none"></div>
+<!-- Header Cột Trái: Huy hiệu trường -->
+<div class="flex items-center gap-3 relative z-10 mb-6">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-md">
+<span class="material-symbols-outlined text-[26px]">school</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary leading-tight">Tiểu học Hoàng Mai</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Hành trình ươm mầm tri thức</span>
+</div>
+</div>
+<!-- Banner Linh vật & Lời chào chính -->
+<div class="relative z-10 my-auto flex flex-col items-center text-center">
+<!-- Bong bóng phát ngôn kiểu truyện tranh -->
+<div class="relative mb-4 bg-surface-container-lowest px-5 py-3 rounded-2xl shadow-md border-b-4 border-surface-variant max-w-xs animate-bounce">
+<p class="font-headline-sm text-headline-sm text-tertiary">
+              Chào mừng em đến với<br/>
+<span class="text-primary font-headline-lg text-headline-lg">Vườn Toán Lớp 3!</span>
+</p>
+<div class="absolute -bottom-3 left-1/2 -translate-x-1/2 w-0 h-0 border-x-8 border-x-transparent border-t-8 border-t-surface-container-lowest"></div>
+</div>
+<!-- Ảnh Linh Vật Chú Ong Vàng Hoàng Mai -->
+<div class="relative w-48 h-48 sm:w-56 sm:h-56 my-2 group">
+<div class="absolute inset-0 bg-primary-fixed rounded-full scale-95 group-hover:scale-105 transition-transform duration-300"></div>
+<img class="relative z-10 w-full h-full object-contain filter drop-shadow-md" alt="Ong Vàng Hoàng Mai" src="assets/img/ong-vang-hoang-mai.png"/>
+<div class="absolute -bottom-2 right-4 bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-full font-label-sm text-label-sm font-bold shadow flex items-center gap-1 z-20">
+<span class="material-symbols-outlined text-[16px]">psychology</span> Ong Vàng Hoàng Mai
+            </div>
+</div>
+<!-- Trích dẫn truyền cảm hứng cho bé 8-9 tuổi -->
+<p class="mt-4 font-body-md text-body-md text-on-surface-variant max-w-sm font-medium">
+            “Mỗi phép tính là một nụ cười, mỗi bài toán là một cuộc phiêu lưu diệu kỳ cùng bạn bè!”
+          </p>
+</div>
+<!-- Dải Huy hiệu Thành tích vui mắt -->
+<div class="relative z-10 mt-6 pt-5 border-t-2 border-surface-variant/60">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-md text-label-md text-on-surface font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-tertiary text-[20px]" style="font-variation-settings: 'FILL' 1;">stars</span>
+              Huy hiệu tuần này của trường:
+            </span>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<!-- Badge 1 -->
+<div class="flex items-center gap-2.5 p-2.5 bg-surface-container-lowest rounded-2xl shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed font-bold shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-md text-label-md text-on-surface leading-tight font-bold">Ong Chăm Chỉ</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Luyện tập đều đặn</span>
+</div>
+</div>
+<!-- Badge 2 -->
+<div class="flex items-center gap-2.5 p-2.5 bg-surface-container-lowest rounded-2xl shadow-sm">
+<div class="w-10 h-10 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container font-bold shrink-0">
+<span class="material-symbols-outlined text-[24px]">calculate</span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-md text-label-md text-on-surface leading-tight font-bold">Vua Cửu Chương</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bảng nhân chia 9</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CỘT PHẢI: Khung Đăng nhập / Đăng ký hiện đại chuẩn Tactile Playful -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-6 sm:p-9 shadow-xl flex flex-col justify-between border-b-[6px] border-surface-container-high relative">
+<!-- Top Switcher: Học sinh / Giáo viên -->
+<div>
+<div class="flex items-center justify-between mb-6">
+<!-- Role Selector -->
+<div class="bg-surface-container p-1 rounded-2xl flex items-center gap-1">
+<button class="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md transition-all shadow-sm" id="btnRoleStudent" type="button">
+<span class="material-symbols-outlined text-[20px]">face</span>
+<span>Học Sinh</span>
+</button>
+<button class="flex items-center gap-2 px-4 py-2 rounded-xl text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" id="btnRoleTeacher" type="button">
+<span class="material-symbols-outlined text-[20px]">person_apron</span>
+<span>Thầy Cô Giáo</span>
+</button>
+</div>
+<!-- Tab Action: Đăng nhập vs Đăng ký -->
+<div class="flex items-center gap-2">
+<button class="px-3.5 py-1.5 rounded-xl font-label-md text-label-md text-primary font-bold bg-primary-fixed/40" id="tabLogin" type="button">
+                Đăng Nhập
+              </button>
+<button class="px-3.5 py-1.5 rounded-xl font-label-md text-label-md text-on-surface-variant hover:text-on-surface" id="tabRegister" type="button">
+                Tạo Tài Khoản
+              </button>
+</div>
+</div>
+<!-- Tiêu đề biểu mẫu -->
+<div class="mb-6">
+<h2 class="font-headline-lg text-headline-lg text-on-surface" id="formTitle">
+              Sẵn sàng làm toán nào! 🌟
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1" id="formSubtitle">
+              Chọn đúng lớp và điền mã của em để bước vào đảo học tập nhé.
+            </p>
+</div>
+<!-- KHUNG ĐĂNG NHẬP GOOGLE DÀNH CHO GIÁO VIÊN -->
+<div class="hidden mb-6 p-4 sm:p-5 rounded-2xl bg-surface-container-low border-2 border-primary/25 shadow-sm transition-all duration-300" id="teacherGoogleSection">
+<div class="flex items-center gap-3 mb-3">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<div class="flex-1 text-left">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Đăng nhập Google Giáo Viên</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Một chạm vào thẳng Sổ theo dõi &amp; Quản trị lớp học</p>
+</div>
+</div>
+<!-- Nút Google GIS chính thức -->
+<div class="flex justify-center items-center py-2 min-h-[46px]" id="googleBtnWrapper"></div>
+<!-- Dải phân cách -->
+<div class="relative flex items-center justify-center my-3">
+<div class="w-full border-t border-surface-variant/80"></div>
+<span class="absolute bg-surface-container-low px-3 font-label-sm text-label-sm text-on-surface-variant">
+                Hoặc đăng nhập mật khẩu nội bộ bên dưới
+              </span>
+</div>
+</div>
+<!-- FORM CHÍNH -->
+<form class="space-y-4" id="authForm" onsubmit="event.preventDefault(); handleLoginSubmit();">
+<!-- Row 1: Chọn Lớp Học & Mã Học Sinh -->
+<div class="grid grid-cols-1 sm:grid-cols-12 gap-3.5">
+<!-- Chọn Lớp Học -->
+<div class="sm:col-span-5 flex flex-col">
+<label class="font-label-md text-label-md text-on-surface font-bold mb-1.5 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">group</span>
+                  Lớp của em:
+                </label>
+<div class="relative">
+<select class="w-full h-14 pl-4 pr-10 rounded-2xl bg-surface-container-low text-on-surface font-headline-sm text-headline-sm focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer border-b-4 border-surface-dim">
+<option value="3A1">Lớp 3A1 🌻</option>
+<option selected="" value="3A2">Lớp 3A2 ⭐</option>
+<option value="3A3">Lớp 3A3 🚀</option>
+<option value="3A4">Lớp 3A4 🐬</option>
+<option value="3A5">Lớp 3A5 🎨</option>
+</select>
+<span class="material-symbols-outlined absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant">expand_more</span>
+</div>
+</div>
+<!-- Tên hoặc Mã Học Sinh -->
+<div class="sm:col-span-7 flex flex-col">
+<label class="font-label-md text-label-md text-on-surface font-bold mb-1.5 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">badge</span>
+                  Họ tên hoặc Mã số:
+                </label>
+<div class="relative">
+<input class="w-full h-14 px-4 rounded-2xl bg-surface-container-low text-on-surface font-body-lg text-body-lg placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary border-b-4 border-surface-dim" id="studentCodeInput" placeholder="VD: HM-3A2-01 hoặc Họ và tên" type="text" value=""/>
+<span class="material-symbols-outlined absolute right-3.5 top-1/2 -translate-y-1/2 text-secondary">check_circle</span>
+</div>
+</div>
+</div>
+<!-- Row 2: Mật Khẩu (Chữ số lớn / Hình thú cưng dễ nhớ) -->
+<div class="flex flex-col">
+<div class="flex items-center justify-between mb-1.5">
+<label class="font-label-md text-label-md text-on-surface font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">lock</span>
+                  Mật khẩu bí mật:
+                </label>
+<button class="font-label-sm text-label-sm text-primary hover:underline flex items-center gap-1" id="togglePassMode" type="button">
+<span class="material-symbols-outlined text-[16px]">pets</span> Dùng mã hình thú cưng
+                </button>
+</div>
+<!-- Input Container -->
+<div class="relative">
+<input class="w-full h-14 px-4 pr-12 rounded-2xl bg-surface-container-low text-on-surface font-headline-sm text-headline-sm tracking-widest focus:outline-none focus:ring-2 focus:ring-primary border-b-4 border-surface-dim" id="passwordField" placeholder="Nhập 4 số bí mật (VD: 2016)" type="password" value=""/>
+<button class="absolute right-3.5 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-on-surface flex items-center p-1 rounded-lg" id="togglePasswordBtn" type="button">
+<span class="material-symbols-outlined" id="eyeIcon">visibility</span>
+</button>
+</div>
+<!-- Bàn phím gợi ý số nhanh cho trẻ -->
+<div class="flex items-center gap-2 mt-2 pt-1 overflow-x-auto py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant shrink-0">Gợi ý số nhanh:</span>
+<div class="flex gap-1.5">
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-variant font-label-md text-label-md text-on-surface flex items-center justify-center font-bold" onclick="appendPin('1')" type="button">1</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-variant font-label-md text-label-md text-on-surface flex items-center justify-center font-bold" onclick="appendPin('2')" type="button">2</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-variant font-label-md text-label-md text-on-surface flex items-center justify-center font-bold" onclick="appendPin('3')" type="button">3</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-variant font-label-md text-label-md text-on-surface flex items-center justify-center font-bold" onclick="appendPin('4')" type="button">4</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-variant font-label-md text-label-md text-on-surface flex items-center justify-center font-bold" onclick="appendPin('0')" type="button">0</button>
+<button class="px-2.5 h-8 rounded-lg bg-error-container text-on-error-container font-label-sm text-label-sm flex items-center justify-center font-bold" onclick="clearPin()" type="button">Xóa</button>
+</div>
+</div>
+</div>
+<!-- Ghi nhớ máy tính & Lối tắt -->
+<div class="flex items-center justify-between pt-1">
+<label class="flex items-center gap-2 cursor-pointer select-none">
+<input checked="" class="w-5 h-5 rounded-lg text-primary focus:ring-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold">Ghi nhớ tài khoản trên máy này</span>
+</label>
+<button class="font-label-sm text-label-sm text-tertiary hover:underline font-bold" type="button">
+                Em quên mật khẩu?
+              </button>
+</div>
+<!-- CTA Chính Nổi Bật Siêu Xúc Giác (Tactile Button) -->
+<div class="pt-2">
+<button class="w-full h-16 rounded-2xl bg-primary-container text-on-primary font-headline-md text-headline-md font-bold flex items-center justify-center gap-3 shadow-md hover:bg-primary active:translate-y-1 transition-all border-b-[6px] border-on-secondary-fixed-variant" type="submit">
+<span>Vào Vườn Toán Ngay!</span>
+<span class="material-symbols-outlined text-[28px]">rocket_launch</span>
+</button>
+</div>
+</form>
+<!-- Dải phân cách hoặc đăng nhập QR Code -->
+<div class="my-5 relative flex items-center justify-center">
+<div class="w-full border-t border-surface-variant"></div>
+<span class="absolute bg-surface-container-lowest px-4 font-label-sm text-label-sm text-on-surface-variant font-bold">
+              HOẶC
+            </span>
+</div>
+<!-- Lối tắt đăng nhập bằng Thẻ Học Sinh Thông Minh (QR Code) -->
+<button class="w-full h-14 rounded-2xl bg-surface-container hover:bg-surface-container-high transition-all flex items-center justify-center gap-3 text-on-surface font-label-lg text-label-lg border-b-4 border-surface-variant" onclick="openQrModal()" type="button">
+<span class="material-symbols-outlined text-primary text-[24px]">qr_code_scanner</span>
+<span>Quét Thẻ Học Sinh Thông Minh (Mã QR)</span>
+</button>
+</div>
+<!-- Footer Hỗ Trợ Kỹ Thuật Dành Cho Phụ Huynh & Giáo Viên -->
+<div class="mt-6 pt-4 border-t border-surface-container-high flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<img src="assets/img/ong-vang-hoang-mai.png" alt="Cô Lan Anh" class="w-6 h-6 rounded-full object-cover ring-1 ring-primary/20 shrink-0"/>
+<span>Hỗ trợ: Cô Lan Anh (GV Chủ nhiệm minh họa) hoặc Phòng Tin học <strong>(024) 3861 2899</strong></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Máy chủ Lớp 3 Sẵn Sàng</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal Quét Mã QR Học Sinh Giả Lập -->
+<div class="fixed inset-0 bg-inverse-surface/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4" id="qrModal">
+<div class="bg-surface-container-lowest rounded-xl max-w-sm w-full p-6 shadow-2xl flex flex-col items-center text-center relative border-b-8 border-primary">
+<button class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="closeQrModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center text-primary mb-3">
+<span class="material-symbols-outlined text-[32px]">photo_camera</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Giơ thẻ học sinh trước camera</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 mb-4">
+        Đặt mã QR in trên thẻ học sinh trường Tiểu học Hoàng Mai vào chính giữa khung hình.
+      </p>
+<!-- Khung Quét QR Giả Lập -->
+<div class="relative w-48 h-48 bg-surface-container rounded-2xl flex items-center justify-center overflow-hidden border-2 border-primary/40">
+<div class="absolute inset-x-4 top-2 h-1 bg-secondary shadow-lg shadow-secondary/50 animate-[bounce_2s_infinite]"></div>
+<span class="material-symbols-outlined text-outline-variant text-[72px]">qr_code_2</span>
+</div>
+<button class="mt-5 w-full py-3 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-colors" onclick="simulateQrSuccess()">
+        Thử nghiệm Quét Thẻ Thành Công ✨
+      </button>
+</div>
+</div>
+<!-- Notification Toast -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 bg-primary text-on-primary px-6 py-4 rounded-2xl shadow-xl flex items-center gap-3" id="toastMessage">
+<span class="material-symbols-outlined text-[26px]">celebration</span>
+<div>
+<h4 class="font-label-lg text-label-lg">Chào bạn nhỏ!</h4>
+<p class="font-body-sm text-body-sm text-on-primary-container">Đang kết nối tới Vườn Toán Lớp 3...</p>
+</div>
+</div>
+</div>
+</main>
+<script src="assets/js/core/api.js"></script>
+<script src="assets/js/components/sidebar.js"></script>
+<script src="assets/js/components/navbar.js"></script>
+<script src="assets/js/components/footer.js"></script>
+<script src="assets/js/core/app.js"></script>
+<script src="assets/js/pages/login.js"></script>
+</body>
+</html>

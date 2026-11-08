@@ -1,0 +1,24 @@
+{
+  "name": "vuon-toan-lop-3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vườn Toán Lớp 3 - Trường Tiểu học Hoàng Mai (frontend + backend Node.js/SQLite)",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "reset-db": "node -e \"require('fs').rmSync('data/vuon-toan.db',{force:true}); console.log('Da xoa DB, chay npm start de tao lai')\"",
+    "build:css": "node tools/build-css.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
